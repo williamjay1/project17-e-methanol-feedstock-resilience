@@ -1,0 +1,1040 @@
+[
+  {
+    "path": "scripts/mucci_service_milp.py",
+    "source_sha256": "0c604531332aeb44b6008ca35bf6100b2a5efc1d5b13a174a94fbf97ae6e4193",
+    "public_sha256": "ed39cff13aab5d96e6b752c77f601821e0682bb03994f6cf4c61d9e33b73b0fc",
+    "transformation": "Portable runtime imports, parameter loader and style root only; equations unchanged"
+  },
+  {
+    "path": "scripts/causal_dispatch.py",
+    "source_sha256": "d058624e1e2384d4c91c43b41e5ca0d0e4a9a13df66bf15e8c25f076dfcaacfe",
+    "public_sha256": "d058624e1e2384d4c91c43b41e5ca0d0e4a9a13df66bf15e8c25f076dfcaacfe",
+    "transformation": "Portable runtime imports, parameter loader and style root only; equations unchanged"
+  },
+  {
+    "path": "scripts/contract_stock_frontier.py",
+    "source_sha256": "34523312323a860ee71bee44a7778231c986672ecd4ff0c8d3943d56d581e70a",
+    "public_sha256": "34523312323a860ee71bee44a7778231c986672ecd4ff0c8d3943d56d581e70a",
+    "transformation": "Portable runtime imports, parameter loader and style root only; equations unchanged"
+  },
+  {
+    "path": "scripts/fair_reference_frontiers.py",
+    "source_sha256": "bff84d8c9c5254bb375e2ae9ac7913638a3ded07f084cb80236ac1941469d8f8",
+    "public_sha256": "bff84d8c9c5254bb375e2ae9ac7913638a3ded07f084cb80236ac1941469d8f8",
+    "transformation": "Portable runtime imports, parameter loader and style root only; equations unchanged"
+  },
+  {
+    "path": "scripts/process_failure_frontier.py",
+    "source_sha256": "552686b9313ae3988bd0ee4234945cb9186fd4deed205557e7bfbc7bab273679",
+    "public_sha256": "552686b9313ae3988bd0ee4234945cb9186fd4deed205557e7bfbc7bab273679",
+    "transformation": "Portable runtime imports, parameter loader and style root only; equations unchanged"
+  },
+  {
+    "path": "scripts/recovery_window_frontier.py",
+    "source_sha256": "5bf992f26676c852b69d0e1ceec8316bd4e2002f8b46b23b9c2ca4edebe5babc",
+    "public_sha256": "5bf992f26676c852b69d0e1ceec8316bd4e2002f8b46b23b9c2ca4edebe5babc",
+    "transformation": "Portable runtime imports, parameter loader and style root only; equations unchanged"
+  },
+  {
+    "path": "scripts/run_service_boundaries.py",
+    "source_sha256": "37143039dfb621be7b2d5497f659af883234c0ed73db6a71001fb934f3a73d47",
+    "public_sha256": "37143039dfb621be7b2d5497f659af883234c0ed73db6a71001fb934f3a73d47",
+    "transformation": "Portable runtime imports, parameter loader and style root only; equations unchanged"
+  },
+  {
+    "path": "scripts/pilot_product_service.py",
+    "source_sha256": "c112020f4b76623c42448e29c828e421e5351b60451856683f9888f4fb5736b2",
+    "public_sha256": "5ec233ee1a0a258aba8ba00c29076b0b0b6ac2ad1878846ea4477624c10b6328",
+    "transformation": "Portable runtime imports, parameter loader and style root only; equations unchanged"
+  },
+  {
+    "path": "scripts/validate_service_and_information.py",
+    "source_sha256": "1e89aa97ac76fc81d16f7af4be7fd679d4cd687c13e0da09c7c355fee1d06fe2",
+    "public_sha256": "1e89aa97ac76fc81d16f7af4be7fd679d4cd687c13e0da09c7c355fee1d06fe2",
+    "transformation": "Portable runtime imports, parameter loader and style root only; equations unchanged"
+  },
+  {
+    "path": "scripts/normalized_reserve_screen.py",
+    "source_sha256": "4f98d17de908caef4e795ca643d1357246b299c6b3a15a9df993f286436cb0b3",
+    "public_sha256": "45801c3f1c9f99c36b24dae82d6cdfb100dd9979fd4aed6bab2afddcff6c4d56",
+    "transformation": "Portable runtime imports, parameter loader and style root only; equations unchanged"
+  },
+  {
+    "path": "scripts/make_nature_figures.py",
+    "source_sha256": "b88bfd0feca44530648d90cae7118b991803499af8fccd31174622a18366b29c",
+    "public_sha256": "15dcdf6934c1eb3d3dad1078810f65f38d6d9d34d1b72e33e80d31c47dee8005",
+    "transformation": "Portable runtime imports, parameter loader and style root only; equations unchanged"
+  },
+  {
+    "path": "scripts/prepare_price_replay.py",
+    "source_sha256": "0079e0ea2384e599ab4022a62a5baa88ee8152719c1433dc17f5424c52226f30",
+    "public_sha256": "eba9b026adb7703bb224f4eb495b50446e8ea9efd17965eeb6c60f301fa31fb8",
+    "transformation": "Portable runtime and bundled CC BY 4.0 Energinet snapshot root only; numerical operations unchanged"
+  },
+  {
+    "path": "scripts/audit_giehl_units.py",
+    "source_sha256": "f886e1377278b3f21edfcd74e3e0255740b854194bcaa434220b783b39dfee6d",
+    "public_sha256": "34a78c09fbd0f7387e3f1a3fcf45229b4c80b884fbfb1bd82c488c1debdfa65e",
+    "transformation": "Portable roots; GPL notebook-source extraction omitted, workbook unit/balance checks unchanged"
+  },
+  {
+    "path": "published_results/native_service_boundaries/adjustable_336h_r1.05_trace.csv",
+    "source_sha256": "a75cb20810670f0ec53627fd1a072ad69e0d9b6a62ad058521c83fa5c84c55d4",
+    "public_sha256": "3c2a99a43c703ce4adc963bb2631e0c942a4e021f783c545eb8ca090bb39f551",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/native_service_boundaries/adjustable_336h_r1.0_trace.csv",
+    "source_sha256": "71af7a64e75cf181fca2e87cd82716db786450358b901787b2fa37df992ca865",
+    "public_sha256": "42a7ce8bb3813405b20eec69e1459b76187d18ec032b951d32ecd5e779296196",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/native_service_boundaries/adjustable_336h_r1.15_trace.csv",
+    "source_sha256": "34f434c8e4888a806f46d1dcf9f78ae160727c0698de9cc672f01bc04c62b197",
+    "public_sha256": "212fb2c8857503517188b04613234826536ddf7a3c2684b2ca0a925a8b5adebb",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/native_service_boundaries/adjustable_336h_r1.4_trace.csv",
+    "source_sha256": "2c3ac2654d9d87f1185393ceff39b11a8e70252e69eb7049804818d9dad39846",
+    "public_sha256": "20dd5a2c68d9ae37281e7cb2a852807c971a335b785c127569f69cb714ecbb5c",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/native_service_boundaries/adjustable_504h_r1.05_trace.csv",
+    "source_sha256": "8e58ad70fe324c018f5439024135d416561c1ded205847e1a1e2d35ea8e76c89",
+    "public_sha256": "53e43b1cc830b81788fd76adf11b983058028d2b2f294ade76686cec1ad2dd3c",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/native_service_boundaries/adjustable_504h_r1.0_trace.csv",
+    "source_sha256": "e5a2c6099c93c792748ec81754a8d345d99b29ba5f1c7da735aba34c0b69594c",
+    "public_sha256": "3ff751839c61e005baa11a47f18d9cd2c173f4a3543ed13195d14d89cdc4f287",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/native_service_boundaries/adjustable_504h_r1.15_trace.csv",
+    "source_sha256": "f60202a6dfbbd99c92717daf089ba59f803a3d2f7330606f4abbc8cdb299770a",
+    "public_sha256": "8527622ce2f5d3c0aeec55a72828eafe0a84a8e134a93ee0b893be9adff7d770",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/native_service_boundaries/adjustable_504h_r1.4_trace.csv",
+    "source_sha256": "2afe01019fc593384f49f163df7a10895d21e85cae3d71d29daa97367ece5d8a",
+    "public_sha256": "de9834055fa4bfdc1274298d81e9df291dafd415a7b3ed5192ab51a172300de0",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/native_service_boundaries/manifest.json",
+    "source_sha256": "5f84e5d71117b85e78e382b193fbe4d60fe46e5cc5ee88c7317bf2c688d6ba48",
+    "public_sha256": "8fcf033d66fdd8fa43cb11b65a66385eea57450e23d49470a1e1cfdbe78e3dd2",
+    "transformation": [
+      "Local source paths converted to relative provenance labels"
+    ]
+  },
+  {
+    "path": "published_results/native_service_boundaries/summary.csv",
+    "source_sha256": "213cb8f097bae7b94ac95531c23b640f976e8b08f7e1383789555e49787a4433",
+    "public_sha256": "213cb8f097bae7b94ac95531c23b640f976e8b08f7e1383789555e49787a4433",
+    "transformation": []
+  },
+  {
+    "path": "published_results/fair_reference_frontiers/adjustable_336h_trace.csv",
+    "source_sha256": "34f434c8e4888a806f46d1dcf9f78ae160727c0698de9cc672f01bc04c62b197",
+    "public_sha256": "212fb2c8857503517188b04613234826536ddf7a3c2684b2ca0a925a8b5adebb",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/fair_reference_frontiers/adjustable_504h_trace.csv",
+    "source_sha256": "f60202a6dfbbd99c92717daf089ba59f803a3d2f7330606f4abbc8cdb299770a",
+    "public_sha256": "8527622ce2f5d3c0aeec55a72828eafe0a84a8e134a93ee0b893be9adff7d770",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/fair_reference_frontiers/fixed_price_profile_336h_trace.csv",
+    "source_sha256": "4166b24465d7857cb16446f008c6075f63c8063f23a8aaf3828d3d65bddf6b78",
+    "public_sha256": "4a4702230c61549db935de2c1ae137b9838d66ef44da809de8187e2fd275116c",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/fair_reference_frontiers/fixed_price_profile_504h_trace.csv",
+    "source_sha256": "a61abeef50d658331633466a7775bf9e547a7168fa40605033c86a73e5feb6c9",
+    "public_sha256": "5abb72777add6ce27b4f30b3ff48ba0436a813bd9ee799aa8db61ef26fd97e37",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/fair_reference_frontiers/flat_contract_mean_336h_trace.csv",
+    "source_sha256": "ea0bb3f53a463685f331f647a9cab88877b4f4233cf1b83400d3a3afe57cf2f5",
+    "public_sha256": "964b4148f671b0bd1f1917a4755e093bff4a06f382bc712c1f0d50e976cf0640",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/fair_reference_frontiers/flat_contract_mean_504h_trace.csv",
+    "source_sha256": "b45c35e7b556e2fba0de766fcf28a9e67ea335110cd39eb4199fcee91e981fe6",
+    "public_sha256": "72147356a7ef8a432a7e185cafcbee3e23795a63705b8da10dc32ffadb81fed2",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/fair_reference_frontiers/manifest.json",
+    "source_sha256": "f8cca15838d7e0ce59bea6bb093004aaac9f288a8fd1f466826212cc34d45d06",
+    "public_sha256": "c37ffe4e1b3e12aacbf11001ae995b3bf6ce264d306a667f0e218dda85945eff",
+    "transformation": [
+      "Local source paths converted to relative provenance labels"
+    ]
+  },
+  {
+    "path": "published_results/fair_reference_frontiers/summary.csv",
+    "source_sha256": "1bf394da31e213c64c6b0853201993bb03539052875bbe5a9e44271ed96c4ca3",
+    "public_sha256": "1bf394da31e213c64c6b0853201993bb03539052875bbe5a9e44271ed96c4ca3",
+    "transformation": []
+  },
+  {
+    "path": "published_results/recovery_window_frontier/manifest.json",
+    "source_sha256": "8e707ee5c0fcb8e289b8256f5430f030b3054c19219131aa76955d061e6c7f4f",
+    "public_sha256": "4dd5bc06b83a717ab9b4c1098888bec81f2d074347104c2b5c243f654abeca54",
+    "transformation": [
+      "Local source paths converted to relative provenance labels"
+    ]
+  },
+  {
+    "path": "published_results/recovery_window_frontier/outage14_recover14_trace.csv",
+    "source_sha256": "91e22cdca201c331491fc474d47afb4f716f3315dc2f83a39ce3c3d301d0424a",
+    "public_sha256": "7a9c204dd74cd4b47ddbd58554fa2ca841d96e3cc997c416b88af45326b962ef",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/recovery_window_frontier/outage14_recover1_trace.csv",
+    "source_sha256": "f9421d4fe550572055646ef5823a83f5a6caa819580f6eb7274a01c1b0525470",
+    "public_sha256": "15b68ad54001cf5ab71be3eba2192788eb8f73e2f19325367b7d52137525b416",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/recovery_window_frontier/outage14_recover21_trace.csv",
+    "source_sha256": "811b309522043cc1b61eda16c92f2d35ea120c6f6c27354c403ce07015d80b6f",
+    "public_sha256": "877ab9bce4c792864c74405f9a8a58abe54431ff5aa81047d69bc5fd6337c495",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/recovery_window_frontier/outage14_recover39_trace.csv",
+    "source_sha256": "def110bc5bbdb21156c13815c3cc73cc8b8562bcae583fea8253b02c6e77f344",
+    "public_sha256": "a065132d8a0c6e7105692bcf835ee14c7c206a7c7cfc7ffdb6b4451cc58f7c44",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/recovery_window_frontier/outage14_recover3_trace.csv",
+    "source_sha256": "d34f761b3cf94515fd8d9c4d285665d0729c9faf19fbcee8c761c028a34638df",
+    "public_sha256": "14c263660363a66c14743c61d36a681d14063ba38b8c183b32a5d9bd74f07250",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/recovery_window_frontier/outage14_recover46_trace.csv",
+    "source_sha256": "eac92a09a47ba56039e8a18a794b2e20dc9b987db985b144036159d5a7fafbbb",
+    "public_sha256": "212fb2c8857503517188b04613234826536ddf7a3c2684b2ca0a925a8b5adebb",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/recovery_window_frontier/outage14_recover7_trace.csv",
+    "source_sha256": "624518777532c8910336567c92c1d0531464e7383d111f00d9bc82a1c2ae7b4e",
+    "public_sha256": "7eae6ca874773f865b38c89f516cf2951d95cdf5e203cafb1550950c3c20d09e",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/recovery_window_frontier/outage21_recover14_trace.csv",
+    "source_sha256": "1ecb5c68c18d19515b377c8ec91d6bd17d442c9a459c326ade59507e6fd7c0b3",
+    "public_sha256": "bf95fd0c13a5e0662f753f2fe3cd01a28acfba41b760ba644f69aeb552fbe18a",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/recovery_window_frontier/outage21_recover1_trace.csv",
+    "source_sha256": "444c5485820625a97c4b9e5ae0332786c78fb35ce7ed66735738b29998373680",
+    "public_sha256": "94fbad5df4cd9502e5475ea2dd857c236387fa6cde06d722451426fb9cd0aef3",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/recovery_window_frontier/outage21_recover21_trace.csv",
+    "source_sha256": "d23ea5958b6bc368603b2ee908c34099a3e08502862aa2679263cf75679261fb",
+    "public_sha256": "120a56271f2d2318bd2260a1a0994b86ccde572e8751bbbf0b90bc7d906b907e",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/recovery_window_frontier/outage21_recover39_trace.csv",
+    "source_sha256": "b0a8dc6e522bef55c38fd6b60a63da14df38a6621f7a4bd8f4e728192df1dc0b",
+    "public_sha256": "8527622ce2f5d3c0aeec55a72828eafe0a84a8e134a93ee0b893be9adff7d770",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/recovery_window_frontier/outage21_recover3_trace.csv",
+    "source_sha256": "3eaea88a2051969abb13b82f0638f2ba554cb8541dddfe6105abd51896f23339",
+    "public_sha256": "2fad201f5c0379771b53bdd5ee7d4ce95a2d4371cc038c2587aaee5a8b987b47",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/recovery_window_frontier/outage21_recover46_trace.csv",
+    "source_sha256": "7b72852701fcae0ff2c17715c11049d7863c93dc707f65458ef7c0e5f1203acc",
+    "public_sha256": "b412b4975c36c980f6dccb7351d914e9f215d9d393a8682130ca44d6e615a8c6",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/recovery_window_frontier/outage21_recover7_trace.csv",
+    "source_sha256": "2a6c79df9e73142d07566a610fcfc71225055fe8ebbd77e368759358a6e30a7c",
+    "public_sha256": "c744c73df5cbd533a9368c79d9f3fe3dad1a44bde0929f81d027083e6d68cec4",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/recovery_window_frontier/summary.csv",
+    "source_sha256": "2db3fd2dc47b0d565ae0227b3b6f6887a4d28d5ba281526baa77d2ecd54a1a70",
+    "public_sha256": "2db3fd2dc47b0d565ae0227b3b6f6887a4d28d5ba281526baa77d2ecd54a1a70",
+    "transformation": []
+  },
+  {
+    "path": "published_results/process_service_frontier/backup_lead24_trace.csv",
+    "source_sha256": "bfd54353ac711d8297547c9f3aa872bc990d54d6ce7c75e6a81d632c5e062dd8",
+    "public_sha256": "f5de91289d139aade4fe77fb436d5665d1e326982faf874ab607b9177fcd3348",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/process_service_frontier/backup_lead48_trace.csv",
+    "source_sha256": "b9109610bef220501d6c02ad0652ad264fea2e0558a5d79607d6c80ba1ce1f11",
+    "public_sha256": "315131e1f3186b995a37bb324afa1f12e43ffa289c56fbffb98803c9b7ae13a9",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/process_service_frontier/C00_ramp0.01_trace.csv",
+    "source_sha256": "098043ce31a3178fb7ec825f04680578b422d99d60e0ea169afeb25f57ba3a2d",
+    "public_sha256": "bd9612fae5e0ada13cb34f3988bdc231e9a7c06b365eab640581245d69bc4214",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/process_service_frontier/C00_ramp0.05_trace.csv",
+    "source_sha256": "9042c00208c41d771fb1d7ca49641d8951e3f5615088a64de6fa6408a8a5e599",
+    "public_sha256": "d4f6fc9e6ce8c69eb42ea2f0e3c0ed18bbd11027035e77717d1a264eca1f4674",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/process_service_frontier/C00_ramp0.1_trace.csv",
+    "source_sha256": "09e5424f73d1cde292d3ce2fcd6d968e88e0ead1ba84b213a7d79ace5fc46e15",
+    "public_sha256": "085d96b31a8e741d39bcc0191c6388bd293fe0485a4bf71abe2d3d4137dcb85e",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/process_service_frontier/C0144_ramp0.01_trace.csv",
+    "source_sha256": "453f0d972068a600e930b7878669e3d58edb5145efaa17b6f213ccc7f5f8f120",
+    "public_sha256": "a518608b527bee54dfc3b898ee7f2aab81b053d94dc8a364d1f73a6413dc1a7c",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/process_service_frontier/C0144_ramp0.05_trace.csv",
+    "source_sha256": "8c4c3215415d9a423a318d187662cf720ea0b6481eb286ab44d758db7de3cc2b",
+    "public_sha256": "27e9d589f314b4505ea61c2facb04e0021be535dd3fc673d7368e475fdf0fea6",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/process_service_frontier/C0144_ramp0.1_trace.csv",
+    "source_sha256": "b2fefff103240e8c25c9a884cf5b6477ae2fc7874e7d7e9547cb33c7758040b6",
+    "public_sha256": "b91a298e519df56a65393f658ebc911a059e5b23c11ed70e9f0527609e65959c",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/process_service_frontier/C0288_ramp0.01_trace.csv",
+    "source_sha256": "5074326a24b5a20734d0ad0eebbbe3c8c0b026be9547512e7d5bec5cee9e5c04",
+    "public_sha256": "21646046490506405527a3a362672243c20b8e1e39be7741d91b0d517285366e",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/process_service_frontier/C0288_ramp0.05_trace.csv",
+    "source_sha256": "f60202a6dfbbd99c92717daf089ba59f803a3d2f7330606f4abbc8cdb299770a",
+    "public_sha256": "8527622ce2f5d3c0aeec55a72828eafe0a84a8e134a93ee0b893be9adff7d770",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/process_service_frontier/C0288_ramp0.1_trace.csv",
+    "source_sha256": "e1fa228db1b81aaa87a27216bfaecfbf7d7e8ddc92633ad71f4e0b4b497a941a",
+    "public_sha256": "f38bee59b580a82bb589cef8372025f76f65a77fa9c54d67d34567a2f7db577d",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/process_service_frontier/C0360_ramp0.01_trace.csv",
+    "source_sha256": "27096a37243de85207a0dfabd385e9cc2fbc8d68cc5b17e61eba348f4134abaa",
+    "public_sha256": "a8b0d98c9f6fa771cc28d6df384c165ab8a858aeffe8f0f8919692664a72be05",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/process_service_frontier/C0360_ramp0.05_trace.csv",
+    "source_sha256": "c65b935c676ba0aee0908584721a8bbd483464c82e895201283ef908e2324f61",
+    "public_sha256": "2f0f09d85a6fed15d44efbc85ad8778a31a62f00ff60c1e1fc991bb02a2e1db9",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/process_service_frontier/C0360_ramp0.1_trace.csv",
+    "source_sha256": "7b16d759f887df54d8fdd8819244b9d6f5eef99c93fc342a0e9f9b138ee877ea",
+    "public_sha256": "029fcf9d25f7415d68c906d1d0c4d8d0dad613fd8b0c2cb8a8f0b47e9100d393",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/process_service_frontier/C072_ramp0.01_trace.csv",
+    "source_sha256": "42b58d5dfc992116b9ff571585597ceefc35860b0e28857f6206a6612f524249",
+    "public_sha256": "b544e48d48769bc316b58a5a5cb8db66ff2d43023f0e990d2ca4d1857f906504",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/process_service_frontier/C072_ramp0.05_trace.csv",
+    "source_sha256": "bda44d22d87934e463b95c39e63d9f946489ccc88bbd9c3e9a8e43a7eef0d50d",
+    "public_sha256": "30c426522031c38135d42099f3fb457530b7ea710d396b4cf19a75a0f040ba48",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/process_service_frontier/C072_ramp0.1_trace.csv",
+    "source_sha256": "f29f3f855719573faf817818bb43571e7bb7c03bef4b2e4c2ad55e4a98a2ae20",
+    "public_sha256": "4a08150032bf2111918dd6ae0dc04198b6bb76fcd32a6e7711841df8d3d5f83e",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/process_service_frontier/H2_fraction0.01_trace.csv",
+    "source_sha256": "8094da9f5a0aacbc4557abe293a584103b1c58b21b81b61e1ddef8d03267a0ec",
+    "public_sha256": "d7de9293068475b47e164036905f5dc7a4faef558e84888d2e287bcfae0563d2",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/process_service_frontier/H2_fraction0.1_trace.csv",
+    "source_sha256": "ed4de46a81b897c297c57a6bc10007c2cdb01e752779c22f1e63abeb49904280",
+    "public_sha256": "74c94312d736a09bfd785ae4b3788edcfbf2b81dbaf9a5f47843c0299504998e",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/process_service_frontier/H2_fraction0_trace.csv",
+    "source_sha256": "aa0f8cb16e45ef653d92ed5fd3caee2320ac27acb62350ed12d5841e9aa1eca0",
+    "public_sha256": "c163f36a15ee7bd615fa45cd9d9bf2df3e7b2c64e564cad40087298b0ecf715e",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/process_service_frontier/H2_fraction1_trace.csv",
+    "source_sha256": "f60202a6dfbbd99c92717daf089ba59f803a3d2f7330606f4abbc8cdb299770a",
+    "public_sha256": "8527622ce2f5d3c0aeec55a72828eafe0a84a8e134a93ee0b893be9adff7d770",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/process_service_frontier/manifest.json",
+    "source_sha256": "2a5bf57b3d57dffa104bcf8df3003acc7dcbb9416c17867e0e992894c61dbdd6",
+    "public_sha256": "e2cc9cb780269c2592f678e290b41a4f61a05a325bf09995370e95705b805f84",
+    "transformation": [
+      "Local source paths converted to relative provenance labels"
+    ]
+  },
+  {
+    "path": "published_results/process_service_frontier/summary.csv",
+    "source_sha256": "4cf651f653dd827c7dc82f55e7200a15a85ab13a3d28e926de14776fd0edccb9",
+    "public_sha256": "4cf651f653dd827c7dc82f55e7200a15a85ab13a3d28e926de14776fd0edccb9",
+    "transformation": []
+  },
+  {
+    "path": "published_results/contract_stock_frontier/contract0.25_fill0.5_r1.0_trace.csv",
+    "source_sha256": "d4ac737c77f6a8933e729f9c27408bfc33ed6ac09c9f3bb73ccbc5076b13f397",
+    "public_sha256": "b2d49a5c29b22727552cb4ffbf5e92e26cc143c473df65dcb0aa79b0c29e0459",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/contract_stock_frontier/contract0.25_fill0.5_r1.15_trace.csv",
+    "source_sha256": "c8f21d2690ecaa13a1c9440de9fe06d7505fc91c889917aa90c829d9241ffc7d",
+    "public_sha256": "05daf4213cbb12db41b2688679607da3b4f3c1fb0a6a01c61b39e6356127010d",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/contract_stock_frontier/contract0.25_fill0_r1.0_trace.csv",
+    "source_sha256": "b53ddc9e221404798198e1db6504e38e927eeaf718e1dff9d581e1c029d50d0c",
+    "public_sha256": "4c42a1753470b8789ed1e58bb981da487253135c76061bd8233c14cbfa8c783e",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/contract_stock_frontier/contract0.25_fill0_r1.15_trace.csv",
+    "source_sha256": "27044228ebb19ee2049eb72de80c2af0412a9161837e6eab460259e6cadc164c",
+    "public_sha256": "3935c7e52bfe5cc52d4e50d99eb0acdb58c524ed32712e81321076e1978a5c2e",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/contract_stock_frontier/contract0.35_fill0.5_r1.0_trace.csv",
+    "source_sha256": "1861f0421cf7fd7a52069f2a8d7b642702e24ffe8b96cf2cb534baf428e46116",
+    "public_sha256": "675c07a92fc110a546f730f1fc5892c43e202fa8fb23cbce6eeed9445c6de5ec",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/contract_stock_frontier/contract0.35_fill0.5_r1.15_trace.csv",
+    "source_sha256": "804d20d4fa6325b1dfc0130c2b827f2a019fe9fe874ad575e47e15d06d1498d4",
+    "public_sha256": "60e5418400c6d396bfabe290fc9007ac199935b84e4201a461022086e5044024",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/contract_stock_frontier/contract0.35_fill0_r1.0_trace.csv",
+    "source_sha256": "4e4902f30ccad8ea38eab1a6b76a016a84f394bbd776768ab78b775dac48667b",
+    "public_sha256": "06a1bc1c6bde91583c7503b37e97f4318d65db4384c557d33f64df84abf01ece",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/contract_stock_frontier/contract0.35_fill0_r1.15_trace.csv",
+    "source_sha256": "2d8864fc6254af3232c64609af7f2ba9284ed1c995007f3a155459279897f1c1",
+    "public_sha256": "db7166b48cb0f279ce6bfb86824998c3aa84f10a7f95f78b1e2b3c48b005e7b0",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/contract_stock_frontier/contract0.6_fill0.5_r1.0_trace.csv",
+    "source_sha256": "2628f30678050ec3323374c9007ecfef82ac9dbbb3583ef497b4dd2795e7f355",
+    "public_sha256": "db2f741a006085db1bd63a2bc5581f84ec14b0eac1cc5b99f70ebf25bb82e326",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/contract_stock_frontier/contract0.6_fill0.5_r1.15_trace.csv",
+    "source_sha256": "bfa786d89e9a0d6b679f58dc8a9dd53a00598e1e45c44d23848ddc510f80bf32",
+    "public_sha256": "bab528ff443589bd14cc2c6ece84c120685f5125a7bca03138001e02f8adf6e9",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/contract_stock_frontier/contract0.6_fill0_r1.0_trace.csv",
+    "source_sha256": "524b4eac148677d0849a3a48ca440bf0b705b03ab39d5d40c017719a74d49fe6",
+    "public_sha256": "f0ea88f7c4c7e6e792bfefa07ceba440d4715c43c7f927f6240f6585328a86a7",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/contract_stock_frontier/contract0.6_fill0_r1.15_trace.csv",
+    "source_sha256": "b026fe8ebb61a3560c68d75c0b167c0282c73e6243136b3219f78be03c8d35e6",
+    "public_sha256": "943dadd4b3b66b8a706d07d853a197979690d47381a70920ac412edb6d820251",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/contract_stock_frontier/contract0.82_fill0.5_r1.0_trace.csv",
+    "source_sha256": "362e8679ba464af76090e81c97ffa2b1541deab38b3fb745f6697cb1729a9629",
+    "public_sha256": "3ff751839c61e005baa11a47f18d9cd2c173f4a3543ed13195d14d89cdc4f287",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/contract_stock_frontier/contract0.82_fill0.5_r1.15_trace.csv",
+    "source_sha256": "b0a8dc6e522bef55c38fd6b60a63da14df38a6621f7a4bd8f4e728192df1dc0b",
+    "public_sha256": "8527622ce2f5d3c0aeec55a72828eafe0a84a8e134a93ee0b893be9adff7d770",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/contract_stock_frontier/contract0.82_fill0_r1.0_trace.csv",
+    "source_sha256": "7c0e00feac7e8beea30aa875cd3d27d365cbfde6aa0c79db31186176ffc76a0b",
+    "public_sha256": "8c00430e517980ecdc335a4085350b7e2a97480f050b06d3528acaa738ad5e47",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/contract_stock_frontier/contract0.82_fill0_r1.15_trace.csv",
+    "source_sha256": "5e9bed41cce0e930220d92473b550383b72347a6600df140dd85ef557d348a5c",
+    "public_sha256": "a31dc8533fa36b5b823cbf87545581d9ed929ba203fd40387272d7c26014297b",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/contract_stock_frontier/contract0.95_fill0.5_r1.0_trace.csv",
+    "source_sha256": "7c6c976c97e5d193fc93f2fc0cc983b0d6281d085d5e86eff909bc7e91e9904a",
+    "public_sha256": "0d9c47b255f880a434788d3a62a8126d64ec15888af0170780a5c5cfa65f406b",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/contract_stock_frontier/contract0.95_fill0.5_r1.15_trace.csv",
+    "source_sha256": "07ca904a19750fddadd8c1cd0dbcb6a1bcbfc8987f60fab6b0df618dd94ec71c",
+    "public_sha256": "c7196b95a63051af9b8f83daa336b37b7aaabca81958a76ebc0f0b49fe6c915b",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/contract_stock_frontier/contract0.95_fill0_r1.0_trace.csv",
+    "source_sha256": "99b5b39278b863f932d075fa0b86148c152b83afa2d496dcecaa1cefb4e80c03",
+    "public_sha256": "cc43982054d28f50ccfd458bc10ff5732ab1a3710f2284d41f78915a097b57bc",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/contract_stock_frontier/contract0.95_fill0_r1.15_trace.csv",
+    "source_sha256": "c2da2891b42f3006c5a76bb7cd29a9dc0b8a9449311d12cac8b8d23ea1486166",
+    "public_sha256": "4d119c71ae92a1294c124094931f6dc2c9efe1dea6bbbe71991491f8425a674b",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/contract_stock_frontier/manifest.json",
+    "source_sha256": "24f306e4a1ebdc43c91f96021386495296fa3bfd24d1c37b83d3e8be498f8265",
+    "public_sha256": "46207a550c99a5cb2cfb316687c91731c3fb9399f96928b812392cfbd6a85a33",
+    "transformation": [
+      "Local source paths converted to relative provenance labels"
+    ]
+  },
+  {
+    "path": "published_results/contract_stock_frontier/summary.csv",
+    "source_sha256": "707570c06567f6f3e847f6d3e095e5968e7ae06043c9ae9495eecfba462c9235",
+    "public_sha256": "707570c06567f6f3e847f6d3e095e5968e7ae06043c9ae9495eecfba462c9235",
+    "transformation": []
+  },
+  {
+    "path": "published_results/mucci_service_1440h_8seg/fixed_min_backup_trace.csv",
+    "source_sha256": "7a374d3554cb66c988353fc86d9163cfb90ec2c043cb5e0e466fcdb75d33b917",
+    "public_sha256": "8a380a91b943ac9047b92d8dc30fee82fad2512e437ee7c2d350c533cac07d2e",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/mucci_service_1440h_8seg/manifest.json",
+    "source_sha256": "c9bc92343585e7d3f7254c2212b77ebe3ae62db9120796307ebaf7665c5cb225",
+    "public_sha256": "39a17b9d860de36709aa83eb6a005e0d21468a74fabd256bfdeb1794368c7b09",
+    "transformation": [
+      "Local source paths converted to relative provenance labels"
+    ]
+  },
+  {
+    "path": "published_results/mucci_service_1440h_8seg/noshock_trace.csv",
+    "source_sha256": "b07a632b32f63a9cdfef2f937070bffe55b1fc9f7cb17fc33de63d26beec3c9b",
+    "public_sha256": "773fd861c6b06b8c2de89e241f40d6e65ef11f6d0d012521156492dc4e86387c",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/mucci_service_1440h_8seg/summary.csv",
+    "source_sha256": "7222292398f3d40d7e3b93073c588234e2de453f53e8f194c34c8003270bc87e",
+    "public_sha256": "7222292398f3d40d7e3b93073c588234e2de453f53e8f194c34c8003270bc87e",
+    "transformation": []
+  },
+  {
+    "path": "published_results/product_service_pilot/adjustable_production_14d_trace.csv",
+    "source_sha256": "00ec4bdd952fd5666d42702c84cd5b8d252d89b7300b0d5521ccb209ed235309",
+    "public_sha256": "32576b9c92c46e381f1ef201bf0770572c17b55652390054c8d35818f9fe14f5",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh"
+    ]
+  },
+  {
+    "path": "published_results/product_service_pilot/adjustable_production_21d_trace.csv",
+    "source_sha256": "cbe79c1129e028869057f18c85f9bb18cb9de39a396e7cbd66ff18729ddf1451",
+    "public_sha256": "f27fd6e88ae2da1b0995b1818366c2f8c0405d9c13ac4fc3b0477dee8ea12af4",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh"
+    ]
+  },
+  {
+    "path": "published_results/product_service_pilot/fixed_noshock_schedule_14d_trace.csv",
+    "source_sha256": "c8db9b8075c1841a03f43cb5e94eb290a5d6d963daa16aafb4082dbf0f31c85d",
+    "public_sha256": "3899c938bb86d8d6a119b1e94340e3b18f574297414a71295a36426a7767c27e",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh"
+    ]
+  },
+  {
+    "path": "published_results/product_service_pilot/fixed_noshock_schedule_21d_trace.csv",
+    "source_sha256": "e694978201d049fa77454636cd31942b43431d4223d9e11f8e6f1c73e8f76747",
+    "public_sha256": "7a462022ca81623077448997432714834546406468134ac07dbb51db7affd941",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh"
+    ]
+  },
+  {
+    "path": "published_results/product_service_pilot/noshock_trace.csv",
+    "source_sha256": "2e1475c84a8b0d0abd8023fcc9df73e605afe586e3bec5bfb1e167f180840ba1",
+    "public_sha256": "680c6ff543124b638352d2dc0e9b516beab4ca7dc282f5ac6824e676bfe83895",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh"
+    ]
+  },
+  {
+    "path": "published_results/product_service_pilot/pilot_manifest.json",
+    "source_sha256": "1b37feacade192a6c900cf57c437f00f967e986ee6405156c2b99a4d86d76e76",
+    "public_sha256": "75dd0dac110642892b9cb0d2084869a774fc41b23f1e15e53df446cfd89d1e4d",
+    "transformation": [
+      "Local source paths converted to relative provenance labels"
+    ]
+  },
+  {
+    "path": "published_results/product_service_pilot/pilot_summary.csv",
+    "source_sha256": "5aa62c26522390703448b039f49e669e5291003c63d2b49d19a75f6a153eedd4",
+    "public_sha256": "5aa62c26522390703448b039f49e669e5291003c63d2b49d19a75f6a153eedd4",
+    "transformation": []
+  },
+  {
+    "path": "published_results/product_service_pilot/survival_only_14d_trace.csv",
+    "source_sha256": "b12306a28acccf80c37b2e586e2b2c20e0c5d024d28c7d62c136bf374475118e",
+    "public_sha256": "a055884660af956878bfc73bf708aa2dda042e77dadb627c6457942c2efb6f44",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh"
+    ]
+  },
+  {
+    "path": "published_results/product_service_pilot/survival_only_21d_trace.csv",
+    "source_sha256": "2f1272b916981616be57e6945cd1315aee24a5b6400fd3449dd1f33e52f1cfaa",
+    "public_sha256": "03364f65e2d3a60d4ec5bfec52e1b99055eb80c96b875413f6a4adae7a6b1e6b",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh"
+    ]
+  },
+  {
+    "path": "published_results/causal_DK1_60d_21out_certificate_mpc_8seg_rolling/certificate_mpc_progress.json",
+    "source_sha256": "770462670f614d0c17f4a4175335e2a89e6f4f43f073f5c627456e2467b108a1",
+    "public_sha256": "ef0e73b13344cb22bb0d2cd91e6ee38a0ac0e0a98ab3368556bf63e9b6d1f733",
+    "transformation": [
+      "Local source paths converted to relative provenance labels"
+    ]
+  },
+  {
+    "path": "published_results/causal_DK1_60d_21out_certificate_mpc_8seg_rolling/certificate_mpc_report.json",
+    "source_sha256": "705f9f9506cff4a8db9336503b745b0ac115099a5f533c303405227e1d45f702",
+    "public_sha256": "7c5b2b15d6db5a121653c1edc92f561511334e97bbf9cbb12bdd45c25cfe34d9",
+    "transformation": [
+      "Local source paths converted to relative provenance labels"
+    ]
+  },
+  {
+    "path": "published_results/causal_DK1_60d_21out_certificate_mpc_8seg_rolling/certificate_mpc_trace.csv",
+    "source_sha256": "2275c0eb4d4460c43bd601d80af575dece8aecc6725277ba6e7b94db66fa48f2",
+    "public_sha256": "aa34fa483ec82dbd15d3c6ccdbbe2b8ab1b181e3a962da0e708f03f916a7978b",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/causal_DK1_60d_21out_certificate_mpc_8seg_rolling/design.json",
+    "source_sha256": "0372c85fdf54b8ac124c2691c27d60d1c1de741fe18c762ee54f94193c1dccc4",
+    "public_sha256": "d1fed700f8c88813cb82738b82be0e45d69281c0d213bb217d476112aa8a9407",
+    "transformation": [
+      "Local source paths converted to relative provenance labels"
+    ]
+  },
+  {
+    "path": "published_results/causal_DK1_60d_21out_credit_mpc_8seg_rolling/credit_mpc_progress.json",
+    "source_sha256": "f52e51947ae3ee4eef2d0da2be5fa8458bfe869a08eb8d15afbee865608ae96c",
+    "public_sha256": "af856d5663bd7de65437fd42622de19f84848ec4e98cefa9982be9fb436a88db",
+    "transformation": [
+      "Local source paths converted to relative provenance labels"
+    ]
+  },
+  {
+    "path": "published_results/causal_DK1_60d_21out_credit_mpc_8seg_rolling/credit_mpc_report.json",
+    "source_sha256": "1357fff9ab9377498793b0ab893263ffef3e8bc63ff5ae2b967cf473f957e48d",
+    "public_sha256": "30b4ed0a32a51338dbcbc6f07bcccdca2599662137b7b006c267bbc4fc40e028",
+    "transformation": [
+      "Local source paths converted to relative provenance labels"
+    ]
+  },
+  {
+    "path": "published_results/causal_DK1_60d_21out_credit_mpc_8seg_rolling/credit_mpc_trace.csv",
+    "source_sha256": "9947d646eecc4e1957c501e3dd9b214d36ca4d581c6b59fbb03b05d288f4a768",
+    "public_sha256": "614705a408c44e27305d81c0286d96471185b8799b1e97d2be67ac9971706836",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/causal_DK1_60d_21out_credit_mpc_8seg_rolling/design.json",
+    "source_sha256": "0372c85fdf54b8ac124c2691c27d60d1c1de741fe18c762ee54f94193c1dccc4",
+    "public_sha256": "d1fed700f8c88813cb82738b82be0e45d69281c0d213bb217d476112aa8a9407",
+    "transformation": [
+      "Local source paths converted to relative provenance labels"
+    ]
+  },
+  {
+    "path": "published_results/causal_DK1_60d_21out_guard_8seg_rolling/design.json",
+    "source_sha256": "0372c85fdf54b8ac124c2691c27d60d1c1de741fe18c762ee54f94193c1dccc4",
+    "public_sha256": "d1fed700f8c88813cb82738b82be0e45d69281c0d213bb217d476112aa8a9407",
+    "transformation": [
+      "Local source paths converted to relative provenance labels"
+    ]
+  },
+  {
+    "path": "published_results/causal_DK1_60d_21out_guard_8seg_rolling/guard_progress.json",
+    "source_sha256": "fad4a1c201ce595287bb388150ee8de778db9e3380881586dfc9ce722fa57e42",
+    "public_sha256": "7d4ae6503694a7ffb15eb1169dc7f17f40f1272c8da8dcca3d697e1fae806632",
+    "transformation": [
+      "Local source paths converted to relative provenance labels"
+    ]
+  },
+  {
+    "path": "published_results/causal_DK1_60d_21out_guard_8seg_rolling/guard_report.json",
+    "source_sha256": "f8a2939659e434f32cd6d3baefbf27a0d8d9e79febae32ed74c08023824c061b",
+    "public_sha256": "b46102b49ec6b60d86b1f6bb42680941346c6e1dfd17b7108f89b47811cc1242",
+    "transformation": [
+      "Local source paths converted to relative provenance labels"
+    ]
+  },
+  {
+    "path": "published_results/causal_DK1_60d_21out_guard_8seg_rolling/guard_trace.csv",
+    "source_sha256": "c29ebb6ec16d8998118d2f916e9a9bda632a06b42d5593cb21b28ef3ae004a51",
+    "public_sha256": "e044ecb6d5ec613799a79c2fe60f30780832a533049695ffbe2df94ababdbcf7",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/causal_DK1_60d_21out_mpc_8seg_rolling/design.json",
+    "source_sha256": "0372c85fdf54b8ac124c2691c27d60d1c1de741fe18c762ee54f94193c1dccc4",
+    "public_sha256": "d1fed700f8c88813cb82738b82be0e45d69281c0d213bb217d476112aa8a9407",
+    "transformation": [
+      "Local source paths converted to relative provenance labels"
+    ]
+  },
+  {
+    "path": "published_results/causal_DK1_60d_21out_mpc_8seg_rolling/mpc_progress.json",
+    "source_sha256": "d5bf1dc982ed08e007723e98b256d6812a7f108b635f7ad68bfe6ecc3c530e2a",
+    "public_sha256": "fa5506e474c084a3cce21327e00694304dcf39b328d80ed5bcccaba955c12f3e",
+    "transformation": [
+      "Local source paths converted to relative provenance labels"
+    ]
+  },
+  {
+    "path": "published_results/causal_DK1_60d_21out_mpc_8seg_rolling/mpc_report.json",
+    "source_sha256": "b270129aa63c8fdfed1d8b9a1024d9ab640569695fd8ffefba35047caca415c9",
+    "public_sha256": "0d1529cdf9a0dc16d35f4f992c57af60f0fbb13a9aa51e0435ff0fc4ac0af027",
+    "transformation": [
+      "Local source paths converted to relative provenance labels"
+    ]
+  },
+  {
+    "path": "published_results/causal_DK1_60d_21out_mpc_8seg_rolling/mpc_trace.csv",
+    "source_sha256": "7638dd48ebe96ab60170918ae6d73c44965edcb351ae42e1e37a89be41fe0e22",
+    "public_sha256": "5c74cf45c57aca77bd678cc26d3438b32978b57c6c33d65e922f740332d01029",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/causal_mucci_60d_21out_certificate_mpc_8seg_rolling/certificate_mpc_progress.json",
+    "source_sha256": "d96870f3fa5d50f5050ded424db20924e0237366c40cc88e9e7bc482e897cfc3",
+    "public_sha256": "c1c968bcca70c6c0426faedd32361e592bf16bc8d34c3a1b0bf1c88835b61cd7",
+    "transformation": [
+      "Local source paths converted to relative provenance labels"
+    ]
+  },
+  {
+    "path": "published_results/causal_mucci_60d_21out_certificate_mpc_8seg_rolling/certificate_mpc_report.json",
+    "source_sha256": "48cd8e3d09278f570ebde6dbd92058a0870afb1d106f1f8eff2880065e3f750b",
+    "public_sha256": "de8fb81d049cf704bb9db38fea78e62c199912241de73dfa7edaa292356358f9",
+    "transformation": [
+      "Local source paths converted to relative provenance labels"
+    ]
+  },
+  {
+    "path": "published_results/causal_mucci_60d_21out_certificate_mpc_8seg_rolling/certificate_mpc_trace.csv",
+    "source_sha256": "a74fd1aa38f48369077312c82531c18de654b2f5d282be572957db8b8f7de26c",
+    "public_sha256": "c9916efeb5d8f1539167572be29e9e62c3731754e68d344977e8a3d2c80c1558",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR, realized_price_EUR_MWh, realized_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/causal_mucci_60d_21out_certificate_mpc_8seg_rolling/design.json",
+    "source_sha256": "0372c85fdf54b8ac124c2691c27d60d1c1de741fe18c762ee54f94193c1dccc4",
+    "public_sha256": "d1fed700f8c88813cb82738b82be0e45d69281c0d213bb217d476112aa8a9407",
+    "transformation": [
+      "Local source paths converted to relative provenance labels"
+    ]
+  },
+  {
+    "path": "published_results/normalized_reserve_screen/all_scenarios.csv",
+    "source_sha256": "248ee440d0bb1405fc2ca73b8ab35764987dcbc7c1591565eba835bf7968dbfd",
+    "public_sha256": "248ee440d0bb1405fc2ca73b8ab35764987dcbc7c1591565eba835bf7968dbfd",
+    "transformation": []
+  },
+  {
+    "path": "published_results/normalized_reserve_screen/process_gap_cases.csv",
+    "source_sha256": "f9c5abb070930af63cb1dd40b6be06b852fcc83e4389c58b127602492d19ddea",
+    "public_sha256": "f9c5abb070930af63cb1dd40b6be06b852fcc83e4389c58b127602492d19ddea",
+    "transformation": []
+  },
+  {
+    "path": "published_results/normalized_reserve_screen/summary.json",
+    "source_sha256": "19b503ab21ec5d41eacbe2cae8553765594acf58229ad26a9ae8c4a99d931a4c",
+    "public_sha256": "15535038a27c04f9f53466a274ee3410603764b4274b33e593d86f3bccfa3fca",
+    "transformation": [
+      "Local source paths converted to relative provenance labels"
+    ]
+  },
+  {
+    "path": "published_results/normalized_reserve_screen/unique_scenarios.csv",
+    "source_sha256": "f0f76fead17a5b77d94dfe17e0f6453be6a6d7c7bf7591e7792d7c4f40c897cd",
+    "public_sha256": "f0f76fead17a5b77d94dfe17e0f6453be6a6d7c7bf7591e7792d7c4f40c897cd",
+    "transformation": []
+  },
+  {
+    "path": "published_results/final_validation/admission_witness_trace.csv",
+    "source_sha256": "de0772acf6a373a50ffbe7a091a3425330a0a9ce062886120a9ef87a6d9f6e36",
+    "public_sha256": "8d48ca55a3a4300246c7adba03a3a34b56c33b0179d1876d166db3db478de712",
+    "transformation": [
+      "Omitted unlicensed source/forecast-price columns: price_eur_mwh, exact_operating_cost_EUR"
+    ]
+  },
+  {
+    "path": "published_results/final_validation/validation_report.json",
+    "source_sha256": "cd3ec78447d40a77cf140c7c6e0449a796c1a31b1cc954cceeb71d0ab8761b91",
+    "public_sha256": "ea8e3f7f819554a48c718c6b51a4b3463998f445bfd4c8a287e7656309c7b79b",
+    "transformation": [
+      "Local source paths converted to relative provenance labels"
+    ]
+  },
+  {
+    "path": "published_results/final_validation/witness_repair_frontier.csv",
+    "source_sha256": "4b3c4e979e689792e209f5cc52e0f9545a0486228d0a88b8ae9bb58e273360fc",
+    "public_sha256": "4b3c4e979e689792e209f5cc52e0f9545a0486228d0a88b8ae9bb58e273360fc",
+    "transformation": []
+  },
+  {
+    "path": "published_results/DK1_hourly_replay_202510_202609.csv",
+    "source_sha256": "ad62a4fba2e75fb9c49c66bad9a7e0a906b7a3ad13e969c076594d145de56ab5",
+    "public_sha256": "ad62a4fba2e75fb9c49c66bad9a7e0a906b7a3ad13e969c076594d145de56ab5",
+    "transformation": []
+  },
+  {
+    "path": "published_results/giehl_input_output_audit.json",
+    "source_sha256": "2292d0646f11f5d653aa8096d967f6424c3f8fcb24dd9c3dc6a73509b9fb58a0",
+    "public_sha256": "81f3e67e98c9bbdc898ccd164ef2eb3951dc56d1d8fc815d5a37ee37724eecaf",
+    "transformation": [
+      "Local source paths converted to relative provenance labels"
+    ]
+  },
+  {
+    "path": "published_results/price_replay_audit.json",
+    "source_sha256": "0b1698ed689601239115931e8dfc523d3600b9abcc5907b2778874eabe91058b",
+    "public_sha256": "0f2d7d6731e625da9dcd64b9900cf355d32910a24ebd226dfb19e23a1d828009",
+    "transformation": [
+      "Local source paths converted to relative provenance labels"
+    ]
+  },
+  {
+    "path": "published_results/public_acquisition_manifest.json",
+    "source_sha256": "1f233359cbe23eeddb80d57a9f46b011cebc201ac96cd133238c5fc3d2622563",
+    "public_sha256": "439084adc34be8f5e4578ada6489979492a61d22c433024d7f670d6c87508ff9",
+    "transformation": [
+      "Local source paths converted to relative provenance labels"
+    ]
+  }
+]

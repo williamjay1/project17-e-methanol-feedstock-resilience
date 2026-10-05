@@ -1,0 +1,1492 @@
+{
+  "input": "cache/giehl_inputs/paper_energy_2024_inputs/paper_energy_2024_input_base_10op.xlsx",
+  "output_archive": "external_raw/paper_energy_2025_output_raw_zenodo15855884.zip",
+  "input_cells": {
+    "Nodes": [
+      {
+        "row": 1,
+        "values": [
+          "Object_name",
+          "Category",
+          "balance_type",
+          "has_state",
+          "node_state_cap",
+          "frac_state_loss",
+          "demand",
+          "node_slack_penalty"
+        ]
+      },
+      {
+        "row": 2,
+        "values": [
+          "co2",
+          "node",
+          "balance_type_none",
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "row": 3,
+        "values": [
+          "water",
+          "node",
+          "balance_type_none",
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "row": 4,
+        "values": [
+          "power",
+          "node",
+          "balance_type_node",
+          null,
+          null,
+          null,
+          null,
+          100000000
+        ]
+      },
+      {
+        "row": 5,
+        "values": [
+          "h2",
+          "node",
+          "balance_type_node",
+          null,
+          null,
+          null,
+          null,
+          100000000
+        ]
+      },
+      {
+        "row": 6,
+        "values": [
+          "heat",
+          "node",
+          "balance_type_node",
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "row": 7,
+        "values": [
+          "vaporized_co2",
+          "node",
+          "balance_type_node",
+          null,
+          null,
+          null,
+          null,
+          100000000
+        ]
+      },
+      {
+        "row": 8,
+        "values": [
+          "h2_st",
+          "node",
+          "balance_type_node",
+          "true",
+          5479,
+          0.0432641649191992,
+          null,
+          100000000
+        ]
+      },
+      {
+        "row": 9,
+        "values": [
+          "ch3oh_st",
+          "node",
+          "balance_type_node",
+          "true",
+          2640,
+          0,
+          null,
+          100000000
+        ]
+      },
+      {
+        "row": 10,
+        "values": [
+          "ch3oh",
+          "node",
+          "balance_type_node",
+          null,
+          null,
+          null,
+          null,
+          100000000
+        ]
+      },
+      {
+        "row": 11,
+        "values": [
+          "raw_ch3oh",
+          "node",
+          "balance_type_node",
+          null,
+          null,
+          null,
+          null,
+          100000000
+        ]
+      },
+      {
+        "row": 12,
+        "values": [
+          "dh",
+          "node",
+          "balance_type_none",
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "row": 13,
+        "values": [
+          "power_wholesale",
+          "node",
+          "balance_type_none",
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "row": 14,
+        "values": [
+          "steam",
+          "node",
+          "balance_type_node",
+          null,
+          null,
+          null,
+          null,
+          100000000
+        ]
+      },
+      {
+        "row": 15,
+        "values": [
+          "ch3oh_demand",
+          "node",
+          "balance_type_node",
+          null,
+          null,
+          null,
+          20.1928,
+          100000000
+        ]
+      }
+    ],
+    "Object__node_node": [
+      {
+        "row": 1,
+        "values": [
+          "Relationship",
+          "Object_class",
+          "Object_name",
+          "Node1",
+          "Node2",
+          "Parameter",
+          "Value"
+        ]
+      },
+      {
+        "row": 2,
+        "values": [
+          "unit__node__node",
+          "unit",
+          "electrolyzer",
+          "power",
+          "water",
+          "fix_ratio_in_in_unit_flow",
+          0.00585
+        ]
+      },
+      {
+        "row": 3,
+        "values": [
+          "unit__node__node",
+          "unit",
+          "co2_vaporizer",
+          "power",
+          "co2",
+          "fix_ratio_in_in_unit_flow",
+          0.003529412
+        ]
+      },
+      {
+        "row": 4,
+        "values": [
+          "unit__node__node",
+          "unit",
+          "dist_tower",
+          "raw_ch3oh",
+          "steam",
+          "fix_ratio_in_in_unit_flow",
+          17.27790174382867
+        ]
+      },
+      {
+        "row": 5,
+        "values": [
+          "unit__node__node",
+          "unit",
+          "ch3oh_reactor",
+          "h2",
+          "vaporized_co2",
+          "fix_ratio_in_in_unit_flow",
+          5.173496722238861
+        ]
+      },
+      {
+        "row": 6,
+        "values": [
+          "unit__node__node",
+          "unit",
+          "steam_plant",
+          "power",
+          "water",
+          "fix_ratio_in_in_unit_flow",
+          0.000724378
+        ]
+      },
+      {
+        "row": 7,
+        "values": [
+          "unit__node__node",
+          "unit",
+          "co2_vaporizer",
+          "power",
+          "vaporized_co2",
+          "fix_ratio_in_out_unit_flow",
+          0.003529412
+        ]
+      },
+      {
+        "row": 8,
+        "values": [
+          "unit__node__node",
+          "unit",
+          "dist_tower",
+          "raw_ch3oh",
+          "ch3oh",
+          "fix_ratio_in_out_unit_flow",
+          1.257861635220126
+        ]
+      },
+      {
+        "row": 9,
+        "values": [
+          "unit__node__node",
+          "unit",
+          "ch3oh_reactor",
+          "h2",
+          "raw_ch3oh",
+          "fix_ratio_in_out_unit_flow",
+          1.041666666666667
+        ]
+      },
+      {
+        "row": 10,
+        "values": [
+          "unit__node__node",
+          "unit",
+          "steam_plant",
+          "power",
+          "steam",
+          "fix_ratio_in_out_unit_flow",
+          0.99
+        ]
+      },
+      {
+        "row": 11,
+        "values": [
+          "unit__node__node",
+          "unit",
+          "electrolyzer",
+          "h2",
+          "heat",
+          "fix_ratio_out_out_unit_flow",
+          1.76
+        ]
+      },
+      {
+        "row": 12,
+        "values": [
+          "unit__node__node",
+          "unit",
+          "ch3oh_reactor",
+          "raw_ch3oh",
+          "heat",
+          "fix_ratio_out_out_unit_flow",
+          4.32
+        ]
+      },
+      {
+        "row": 13,
+        "values": [
+          "connection__node__node",
+          "connection",
+          "pl_wholesale",
+          "power_wholesale",
+          "power",
+          "fix_ratio_out_in_connection_flow",
+          1
+        ]
+      },
+      {
+        "row": 14,
+        "values": [
+          "connection__node__node",
+          "connection",
+          "pl_h2_st",
+          "h2",
+          "h2_st",
+          "fix_ratio_out_in_connection_flow",
+          1
+        ]
+      },
+      {
+        "row": 15,
+        "values": [
+          "connection__node__node",
+          "connection",
+          "pl_ch3oh_st",
+          "ch3oh",
+          "ch3oh_st",
+          "fix_ratio_out_in_connection_flow",
+          0.99984
+        ]
+      },
+      {
+        "row": 16,
+        "values": [
+          "connection__node__node",
+          "connection",
+          "pl_wholesale",
+          "power",
+          "power_wholesale",
+          "fix_ratio_out_in_connection_flow",
+          1
+        ]
+      },
+      {
+        "row": 17,
+        "values": [
+          "connection__node__node",
+          "connection",
+          "pl_h2_st",
+          "h2_st",
+          "h2",
+          "fix_ratio_out_in_connection_flow",
+          0.88
+        ]
+      },
+      {
+        "row": 18,
+        "values": [
+          "connection__node__node",
+          "connection",
+          "pl_ch3oh_st",
+          "ch3oh_st",
+          "ch3oh",
+          "fix_ratio_out_in_connection_flow",
+          0.99984
+        ]
+      },
+      {
+        "row": 19,
+        "values": [
+          "connection__node__node",
+          "connection",
+          "pl_dh",
+          "dh",
+          "heat",
+          "fix_ratio_out_in_connection_flow",
+          1
+        ]
+      },
+      {
+        "row": 20,
+        "values": [
+          "connection__node__node",
+          "connection",
+          "pl_ch3oh_demand",
+          "ch3oh_demand",
+          "ch3oh",
+          "fix_ratio_out_in_connection_flow",
+          1
+        ]
+      }
+    ],
+    "Object__to_from_node": [
+      {
+        "row": 1,
+        "values": [
+          "Relationship_class_name",
+          "Object_class",
+          "Object_name",
+          "Node",
+          "Parameter",
+          "Value"
+        ]
+      },
+      {
+        "row": 2,
+        "values": [
+          "unit__to_node",
+          "unit",
+          "solar_plant",
+          "power",
+          "unit_capacity",
+          304
+        ]
+      },
+      {
+        "row": 3,
+        "values": [
+          "unit__from_node",
+          "unit",
+          "electrolyzer",
+          "power",
+          "unit_capacity",
+          52
+        ]
+      },
+      {
+        "row": 4,
+        "values": [
+          "unit__to_node",
+          "unit",
+          "co2_vaporizer",
+          "vaporized_co2",
+          "unit_capacity",
+          100
+        ]
+      },
+      {
+        "row": 5,
+        "values": [
+          "unit__to_node",
+          "unit",
+          "dist_tower",
+          "ch3oh",
+          "unit_capacity",
+          52
+        ]
+      },
+      {
+        "row": 6,
+        "values": [
+          "unit__to_node",
+          "unit",
+          "ch3oh_reactor",
+          "raw_ch3oh",
+          "unit_capacity",
+          52
+        ]
+      },
+      {
+        "row": 7,
+        "values": [
+          "unit__from_node",
+          "unit",
+          "steam_plant",
+          "power",
+          "unit_capacity",
+          100
+        ]
+      },
+      {
+        "row": 8,
+        "values": [
+          "unit__from_node",
+          "unit",
+          "electrolyzer",
+          "power",
+          "minimum_operating_point",
+          0.02
+        ]
+      },
+      {
+        "row": 9,
+        "values": [
+          "unit__from_node",
+          "unit",
+          "electrolyzer",
+          "water",
+          "vom_cost",
+          0.001486595174262735
+        ]
+      },
+      {
+        "row": 10,
+        "values": [
+          "unit__from_node",
+          "unit",
+          "co2_vaporizer",
+          "co2",
+          "vom_cost",
+          26.81
+        ]
+      },
+      {
+        "row": 11,
+        "values": [
+          "unit__to_node",
+          "unit",
+          "ch3oh_reactor",
+          "raw_ch3oh",
+          "ramp_up_limit",
+          0.5
+        ]
+      },
+      {
+        "row": 12,
+        "values": [
+          "unit__to_node",
+          "unit",
+          "ch3oh_reactor",
+          "raw_ch3oh",
+          "ramp_down_limit",
+          0.5
+        ]
+      },
+      {
+        "row": 13,
+        "values": [
+          "unit__to_node",
+          "unit",
+          "ch3oh_reactor",
+          "raw_ch3oh",
+          "start_up_limit",
+          0.5
+        ]
+      },
+      {
+        "row": 14,
+        "values": [
+          "unit__to_node",
+          "unit",
+          "ch3oh_reactor",
+          "raw_ch3oh",
+          "shut_down_limit",
+          0.5
+        ]
+      },
+      {
+        "row": 15,
+        "values": [
+          "unit__from_node",
+          "unit",
+          "steam_plant",
+          "water",
+          "vom_cost",
+          0.001486595174262735
+        ]
+      },
+      {
+        "row": 16,
+        "values": [
+          "connection__from_node",
+          "connection",
+          "pl_wholesale",
+          "power_wholesale",
+          "connection_capacity",
+          1000
+        ]
+      },
+      {
+        "row": 17,
+        "values": [
+          "connection__to_node",
+          "connection",
+          "pl_wholesale",
+          "power",
+          "connection_capacity",
+          1000
+        ]
+      },
+      {
+        "row": 18,
+        "values": [
+          "connection__from_node",
+          "connection",
+          "pl_wholesale",
+          "power",
+          "connection_capacity",
+          1000
+        ]
+      },
+      {
+        "row": 19,
+        "values": [
+          "connection__to_node",
+          "connection",
+          "pl_wholesale",
+          "power_wholesale",
+          "connection_capacity",
+          1000
+        ]
+      },
+      {
+        "row": 20,
+        "values": [
+          "connection__from_node",
+          "connection",
+          "pl_h2_st",
+          "h2",
+          "connection_capacity",
+          1000
+        ]
+      },
+      {
+        "row": 21,
+        "values": [
+          "connection__to_node",
+          "connection",
+          "pl_h2_st",
+          "h2_st",
+          "connection_capacity",
+          1000
+        ]
+      },
+      {
+        "row": 22,
+        "values": [
+          "connection__from_node",
+          "connection",
+          "pl_h2_st",
+          "h2_st",
+          "connection_capacity",
+          1000
+        ]
+      },
+      {
+        "row": 23,
+        "values": [
+          "connection__to_node",
+          "connection",
+          "pl_h2_st",
+          "h2",
+          "connection_capacity",
+          1000
+        ]
+      },
+      {
+        "row": 24,
+        "values": [
+          "connection__from_node",
+          "connection",
+          "pl_ch3oh_st",
+          "ch3oh",
+          "connection_capacity",
+          1000
+        ]
+      },
+      {
+        "row": 25,
+        "values": [
+          "connection__to_node",
+          "connection",
+          "pl_ch3oh_st",
+          "ch3oh_st",
+          "connection_capacity",
+          1000
+        ]
+      },
+      {
+        "row": 26,
+        "values": [
+          "connection__from_node",
+          "connection",
+          "pl_ch3oh_st",
+          "ch3oh_st",
+          "connection_capacity",
+          1000
+        ]
+      },
+      {
+        "row": 27,
+        "values": [
+          "connection__to_node",
+          "connection",
+          "pl_ch3oh_st",
+          "ch3oh",
+          "connection_capacity",
+          1000
+        ]
+      },
+      {
+        "row": 28,
+        "values": [
+          "connection__from_node",
+          "connection",
+          "pl_dh",
+          "heat",
+          "connection_capacity",
+          1000
+        ]
+      },
+      {
+        "row": 29,
+        "values": [
+          "connection__to_node",
+          "connection",
+          "pl_dh",
+          "dh",
+          "connection_capacity",
+          1000
+        ]
+      },
+      {
+        "row": 30,
+        "values": [
+          "connection__from_node",
+          "connection",
+          "pl_ch3oh_demand",
+          "ch3oh",
+          "connection_capacity",
+          1000
+        ]
+      },
+      {
+        "row": 31,
+        "values": [
+          "connection__to_node",
+          "connection",
+          "pl_ch3oh_demand",
+          "ch3oh_demand",
+          "connection_capacity",
+          1000
+        ]
+      }
+    ],
+    "Definition_parameters_duration": [
+      {
+        "row": 1,
+        "values": [
+          "Object_name",
+          "Category",
+          "Parameter",
+          "Value"
+        ]
+      },
+      {
+        "row": 2,
+        "values": [
+          "ch3oh_reactor",
+          "unit",
+          "min_down_time",
+          "48h"
+        ]
+      }
+    ],
+    "Definition_parameters": [
+      {
+        "row": 1,
+        "values": [
+          "Object_name",
+          "Category",
+          "Parameter",
+          "Value"
+        ]
+      },
+      {
+        "row": 2,
+        "values": [
+          "solar_plant",
+          "unit",
+          "fom_cost",
+          0
+        ]
+      },
+      {
+        "row": 3,
+        "values": [
+          "electrolyzer",
+          "unit",
+          "fom_cost",
+          4.34
+        ]
+      },
+      {
+        "row": 4,
+        "values": [
+          "ch3oh_reactor",
+          "unit",
+          "fom_cost",
+          4.45
+        ]
+      },
+      {
+        "row": 5,
+        "values": [
+          "steam_plant",
+          "unit",
+          "fom_cost",
+          0.1192922374429224
+        ]
+      },
+      {
+        "row": 6,
+        "values": [
+          "ch3oh_reactor",
+          "unit",
+          "online_variable_type",
+          "unit_online_variable_type_integer"
+        ]
+      },
+      {
+        "row": 7,
+        "values": [
+          "pl_h2_st",
+          "connection",
+          "fom_cost",
+          0.07283561643835616
+        ]
+      },
+      {
+        "row": 8,
+        "values": [
+          "pl_ch3oh_st",
+          "connection",
+          "fom_cost",
+          0.01095890410958904
+        ]
+      },
+      {
+        "row": 9,
+        "values": [
+          "ch3oh_reactor",
+          "unit",
+          "initial_units_on",
+          1
+        ]
+      }
+    ],
+    "Variable_Eff": [
+      {
+        "row": 1,
+        "values": [
+          "relationship_class_name:",
+          "unit__from_node__user_constraint",
+          "unit__to_node__user_constraint"
+        ]
+      },
+      {
+        "row": 2,
+        "values": [
+          "User_constraint_name",
+          "effcurve_electrolyzer",
+          "effcurve_electrolyzer"
+        ]
+      },
+      {
+        "row": 3,
+        "values": [
+          "Object_name",
+          "electrolyzer",
+          "electrolyzer"
+        ]
+      },
+      {
+        "row": 4,
+        "values": [
+          "Node_name",
+          "power",
+          "h2"
+        ]
+      },
+      {
+        "row": 5,
+        "values": [
+          "Parameter",
+          "unit_flow_coefficient",
+          "unit_flow_coefficient"
+        ]
+      },
+      {
+        "row": 6,
+        "values": [
+          0,
+          0.7927536186445832,
+          -1
+        ]
+      },
+      {
+        "row": 7,
+        "values": [
+          1,
+          0.7914589089340006,
+          null
+        ]
+      },
+      {
+        "row": 8,
+        "values": [
+          2,
+          0.7772824056300296,
+          null
+        ]
+      },
+      {
+        "row": 9,
+        "values": [
+          3,
+          0.7508885215402584,
+          null
+        ]
+      },
+      {
+        "row": 10,
+        "values": [
+          4,
+          0.737691579495373,
+          null
+        ]
+      },
+      {
+        "row": 11,
+        "values": [
+          5,
+          0.737691579495373,
+          null
+        ]
+      },
+      {
+        "row": 12,
+        "values": [
+          6,
+          0.7221333464650168,
+          null
+        ]
+      },
+      {
+        "row": 13,
+        "values": [
+          7,
+          0.7065751134346605,
+          null
+        ]
+      },
+      {
+        "row": 14,
+        "values": [
+          8,
+          0.7065751134346605,
+          null
+        ]
+      },
+      {
+        "row": 15,
+        "values": [
+          9,
+          0.6797971180587615,
+          null
+        ]
+      }
+    ],
+    "Operating_points": [
+      {
+        "row": 1,
+        "values": [
+          "relationship_class_name:",
+          "unit__from_node"
+        ]
+      },
+      {
+        "row": 2,
+        "values": [
+          "Object_name",
+          "electrolyzer"
+        ]
+      },
+      {
+        "row": 3,
+        "values": [
+          "Node_name",
+          "power"
+        ]
+      },
+      {
+        "row": 4,
+        "values": [
+          "Parameter",
+          "operating_points"
+        ]
+      },
+      {
+        "row": 5,
+        "values": [
+          0,
+          0.130774
+        ]
+      },
+      {
+        "row": 6,
+        "values": [
+          1,
+          0.2273546666666667
+        ]
+      },
+      {
+        "row": 7,
+        "values": [
+          2,
+          0.3239353333333334
+        ]
+      },
+      {
+        "row": 8,
+        "values": [
+          3,
+          0.4205160000000001
+        ]
+      },
+      {
+        "row": 9,
+        "values": [
+          4,
+          0.5170966666666668
+        ]
+      },
+      {
+        "row": 10,
+        "values": [
+          5,
+          0.6136773333333334
+        ]
+      },
+      {
+        "row": 11,
+        "values": [
+          6,
+          0.7102580000000001
+        ]
+      },
+      {
+        "row": 12,
+        "values": [
+          7,
+          0.8068386666666667
+        ]
+      },
+      {
+        "row": 13,
+        "values": [
+          8,
+          0.9034193333333334
+        ]
+      },
+      {
+        "row": 14,
+        "values": [
+          9,
+          1
+        ]
+      }
+    ]
+  },
+  "prices": {
+    "n": 8760,
+    "first": [
+      "2019-01-01T00:00:00",
+      28.32,
+      -28.32,
+      -18.57908847184987,
+      11.70241286863271,
+      0,
+      null,
+      null
+    ],
+    "last": [
+      "2019-12-31T23:00:00",
+      32.279999,
+      -32.279999,
+      -18.57908847184987,
+      11.70241286863271,
+      0,
+      null,
+      null
+    ]
+  },
+  "flow_columns": [
+    {
+      "index": 1,
+      "key": [
+        "connection_flow",
+        "pl_ch3oh_demand",
+        "from_node",
+        "ch3oh"
+      ],
+      "sum": 176888.9279999992,
+      "max": 484.6272,
+      "min": -3.716593532931966e-11
+    },
+    {
+      "index": 2,
+      "key": [
+        "connection_flow",
+        "pl_ch3oh_demand",
+        "to_node",
+        "ch3oh_demand"
+      ],
+      "sum": 7511.7216,
+      "max": 20.1928,
+      "min": 20.1928
+    },
+    {
+      "index": 3,
+      "key": [
+        "connection_flow",
+        "pl_ch3oh_st",
+        "from_node",
+        "ch3oh"
+      ],
+      "sum": 13219.718657742942,
+      "max": 24.38578968835333,
+      "min": -4.368167548147833e-11
+    },
+    {
+      "index": 4,
+      "key": [
+        "connection_flow",
+        "pl_ch3oh_st",
+        "from_node",
+        "ch3oh_st"
+      ],
+      "sum": 12248.349102757758,
+      "max": 484.7047527604416,
+      "min": -2.491936899084942e-14
+    },
+    {
+      "index": 5,
+      "key": [
+        "connection_flow",
+        "pl_ch3oh_st",
+        "to_node",
+        "ch3oh"
+      ],
+      "sum": 12246.389366901316,
+      "max": 484.6272,
+      "min": -2.491538189181089e-14
+    },
+    {
+      "index": 6,
+      "key": [
+        "connection_flow",
+        "pl_ch3oh_st",
+        "to_node",
+        "ch3oh_st"
+      ],
+      "sum": 13217.603502757702,
+      "max": 24.38188796200319,
+      "min": -4.367468641340129e-11
+    },
+    {
+      "index": 9,
+      "key": [
+        "connection_flow",
+        "pl_h2_st",
+        "from_node",
+        "h2"
+      ],
+      "sum": 1.8131965414102327e-09,
+      "max": 8.678031877357387e-10,
+      "min": -3.811469658406471e-10
+    },
+    {
+      "index": 10,
+      "key": [
+        "connection_flow",
+        "pl_h2_st",
+        "from_node",
+        "h2_st"
+      ],
+      "sum": 3.3511202325700724e-09,
+      "max": 8.243787874562258e-10,
+      "min": -3.354093299397695e-10
+    },
+    {
+      "index": 11,
+      "key": [
+        "connection_flow",
+        "pl_h2_st",
+        "to_node",
+        "h2"
+      ],
+      "sum": 3.3511202325700724e-09,
+      "max": 8.243787874562258e-10,
+      "min": -3.354093299397695e-10
+    },
+    {
+      "index": 12,
+      "key": [
+        "connection_flow",
+        "pl_h2_st",
+        "to_node",
+        "h2_st"
+      ],
+      "sum": 1.5956129564410058e-09,
+      "max": 7.636668052074501e-10,
+      "min": -3.354093299397695e-10
+    },
+    {
+      "index": 35,
+      "key": [
+        "node_state",
+        "ch3oh_st",
+        "",
+        "realization"
+      ],
+      "sum": 7349328.645658673,
+      "max": 1711.16530090681,
+      "min": -2.491936899084942e-14
+    },
+    {
+      "index": 36,
+      "key": [
+        "node_state",
+        "h2_st",
+        "",
+        "realization"
+      ],
+      "sum": -1.2680811325622297e-08,
+      "max": 2.365564036324486e-10,
+      "min": -2.283090260392427e-10
+    },
+    {
+      "index": 43,
+      "key": [
+        "unit_flow",
+        "ch3oh_reactor",
+        "from_node",
+        "h2"
+      ],
+      "sum": 233048.0310414596,
+      "max": 31.95203051428578,
+      "min": -4.028638566651381e-11
+    },
+    {
+      "index": 44,
+      "key": [
+        "unit_flow",
+        "ch3oh_reactor",
+        "from_node",
+        "vaporized_co2"
+      ],
+      "sum": 45046.52144451475,
+      "max": 6.176099498997721,
+      "min": -7.787070878645428e-12
+    },
+    {
+      "index": 45,
+      "key": [
+        "unit_flow",
+        "ch3oh_reactor",
+        "to_node",
+        "heat"
+      ],
+      "sum": 51788.451342546556,
+      "max": 7.100451225396838,
+      "min": -8.952530148114177e-12
+    },
+    {
+      "index": 46,
+      "key": [
+        "unit_flow",
+        "ch3oh_reactor",
+        "to_node",
+        "raw_ch3oh"
+      ],
+      "sum": 223726.10979980114,
+      "max": 30.67394929371434,
+      "min": -3.867493023985325e-11
+    },
+    {
+      "index": 47,
+      "key": [
+        "unit_flow",
+        "co2_vaporizer",
+        "from_node",
+        "co2"
+      ],
+      "sum": 45046.52144451474,
+      "max": 6.176099498997721,
+      "min": -7.787070878645428e-12
+    },
+    {
+      "index": 48,
+      "key": [
+        "unit_flow",
+        "co2_vaporizer",
+        "from_node",
+        "power"
+      ],
+      "sum": 158.98773334452767,
+      "max": 0.02179799968495654,
+      "min": -2.748378140394172e-14
+    },
+    {
+      "index": 49,
+      "key": [
+        "unit_flow",
+        "co2_vaporizer",
+        "to_node",
+        "vaporized_co2"
+      ],
+      "sum": 45046.52144451474,
+      "max": 6.176099498997721,
+      "min": -7.787070878645428e-12
+    },
+    {
+      "index": 50,
+      "key": [
+        "unit_flow",
+        "dist_tower",
+        "from_node",
+        "raw_ch3oh"
+      ],
+      "sum": 223726.10979980012,
+      "max": 30.67394929371434,
+      "min": -4.674960418782348e-11
+    },
+    {
+      "index": 52,
+      "key": [
+        "unit_flow",
+        "dist_tower",
+        "to_node",
+        "ch3oh"
+      ],
+      "sum": 177862.2572908411,
+      "max": 24.3857896885029,
+      "min": -3.716593532931966e-11
+    },
+    {
+      "index": 53,
+      "key": [
+        "unit_flow",
+        "electrolyzer",
+        "from_node",
+        "power"
+      ],
+      "sum": 312625.4767246437,
+      "max": 43.05746208565885,
+      "min": -1.944460089654058e-12
+    },
+    {
+      "index": 54,
+      "key": [
+        "unit_flow",
+        "electrolyzer",
+        "from_node",
+        "water"
+      ],
+      "sum": 53440252.43156303,
+      "max": 7360.249929172453,
+      "min": -3.323863401118047e-10
+    },
+    {
+      "index": 55,
+      "key": [
+        "unit_flow",
+        "electrolyzer",
+        "to_node",
+        "h2"
+      ],
+      "sum": 233048.0310414586,
+      "max": 31.95203051437552,
+      "min": -2.002429856055362e-13
+    },
+    {
+      "index": 56,
+      "key": [
+        "unit_flow",
+        "electrolyzer",
+        "to_node",
+        "heat"
+      ],
+      "sum": 132413.65400082874,
+      "max": 18.15456279225882,
+      "min": -1.137744236395092e-13
+    },
+    {
+      "index": 58,
+      "key": [
+        "unit_flow",
+        "steam_plant",
+        "from_node",
+        "power"
+      ],
+      "sum": 12819.198302300432,
+      "max": 1.757575095113836,
+      "min": -2.678688004605438e-12
+    },
+    {
+      "index": 59,
+      "key": [
+        "unit_flow",
+        "steam_plant",
+        "from_node",
+        "water"
+      ],
+      "sum": 17696835.495142635,
+      "max": 2426.323128413392,
+      "min": -3.697914631042685e-09
+    },
+    {
+      "index": 60,
+      "key": [
+        "unit_flow",
+        "steam_plant",
+        "to_node",
+        "steam"
+      ],
+      "sum": 12948.685153838818,
+      "max": 1.775328378902865,
+      "min": -2.705745459197412e-12
+    }
+  ],
+  "checks": [
+    {
+      "name": "reactor_h2_co2",
+      "max_abs_residual": 1.0658141036401503e-14
+    },
+    {
+      "name": "reactor_h2_raw",
+      "max_abs_residual": 1.0658141036401503e-14
+    },
+    {
+      "name": "dist_raw_product",
+      "max_abs_residual": 1.0658141036401503e-14
+    },
+    {
+      "name": "vapor_electric_co2",
+      "max_abs_residual": 3.0531133177191805e-16
+    }
+  ]
+}

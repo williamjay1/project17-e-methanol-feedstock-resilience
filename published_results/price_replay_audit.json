@@ -1,0 +1,28 @@
+{
+  "raw": [
+    {
+      "raw_file": "external_raw/DK1_DayAheadPrices_2025-10-01_2026-01-01_snapshot20261002.json",
+      "total": 8836
+    },
+    {
+      "raw_file": "external_raw/DK1_DayAheadPrices_2026-01-01_2026-04-01_snapshot20261002.json",
+      "total": 8636
+    },
+    {
+      "raw_file": "external_raw/DK1_DayAheadPrices_2026-04-01_2026-07-01_snapshot20261002.json",
+      "total": 8736
+    },
+    {
+      "raw_file": "external_raw/DK1_DayAheadPrices_2026-07-01_2026-10-01_snapshot20261002.json",
+      "total": 8832
+    }
+  ],
+  "quarters": 35040,
+  "hours": 8760,
+  "first": "2025-09-30 22:00:00+00:00",
+  "last": "2026-09-30 21:00:00+00:00",
+  "minimum": -31.2775,
+  "maximum": 738.1774905,
+  "license": "CC BY 4.0; Energinet attribution; hourly aggregation is our transformation",
+  "note": "UTC time; one hour is arithmetic mean of four equally long market intervals; not a quarter-hour controller or plant electricity bill"
+}

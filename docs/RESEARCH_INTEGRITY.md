@@ -1,0 +1,13 @@
+# Evidence, provenance and research integrity
+
+The retained results are computed engineering scenarios. They are not synthetic data described as observation, field validation, a reconstructed Kassø outage, measured CO2 purity or actual procurement/economic loss. Model variables have physical units and explicit process/source locators in `literature/parameters_mucci_2023.json` and `docs/DATA_DICTIONARY.md`.
+
+The native process implementation is independently authored from published mathematical relationships. The original author GAMS/MINLP optimum was not executed or reproduced. The Giehl-derived affine model is an accounting transfer; its electricity conversion is calibrated from the unshocked published model output, not independent operating measurements. These limitations survive public deposition.
+
+The evidence includes all retained failures, the collection-capacity correction, equal delivery targets and restored inventory conditions. Cost reductions under a service deficit are not interpreted as service-equivalent benefits. Whole-horizon foresight is an optimistic diagnostic benchmark, not an implemented policy. Controller information constraints and their tests are distinct from plant validation or guarantees outside the stated single-interruption envelope.
+
+Packaging does not alter scientific model equations or core results. Portable access/root substitutions and price-column exclusions are recorded with original/public SHA256 checksums in `provenance/packaging_transformations.json`. Source data can change at their providers: original immutable hashes identify the exact snapshots used. Executed solver/package versions are recorded; reruns may return different nonunique MILP schedules. Publication should report actual rerun outcomes, not claim unexecuted tests.
+
+AI assistance was substantive in research planning, code/model implementation, numerical analysis, source checking, figure production and manuscript drafting, not restricted to spelling or language polishing. The deposit does not establish verified human author identities or editorial policy clearance. Responsible human authors must examine sources, model/code, outputs and declarations, accept responsibility and comply with the actual journal policy without concealing the assistance history. No AI system is assigned scholarly authorship.
+
+No private facility/operator/human-participant data, passwords, tokens, internal correspondence or third-party unlicensed software attachments are intentionally distributed. A public repository/DOI improves reproducibility but does not itself prove novelty, correct claims or acceptance eligibility.

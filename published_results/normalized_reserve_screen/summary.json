@@ -1,0 +1,36 @@
+{
+  "analysis": "Deterministic necessary-bound reanalysis; no new solves or observations",
+  "inventory_stock": "C0 + kappa_C * M0",
+  "formula": "U/f >= max(0,1-s,1-rho)/a; s=S0/(fL), rho=(r-1)R/L, a=(L-delay)/L",
+  "caveat": "Necessary only: individual process, product-recovery throughput, collection phase and early deadline feasibility still apply.",
+  "all_records": 75,
+  "feasible_records": 63,
+  "unique_designs": 69,
+  "unique_feasible": 57,
+  "unique_infeasible": 12,
+  "unique_feasible_at_bound": 55,
+  "unique_feasible_above_bound": 2,
+  "maximum_normalized_process_gap": 0.05280419313208806,
+  "maximum_gap_t_day": 14.312887011926417,
+  "phase_infeasible": 10,
+  "early_deadline_infeasible": 2,
+  "source_sha256": {
+    "results/native_service_boundaries/summary.csv": "213cb8f097bae7b94ac95531c23b640f976e8b08f7e1383789555e49787a4433",
+    "results/recovery_window_frontier/summary.csv": "2db3fd2dc47b0d565ae0227b3b6f6887a4d28d5ba281526baa77d2ecd54a1a70",
+    "results/process_service_frontier/summary.csv": "4cf651f653dd827c7dc82f55e7200a15a85ab13a3d28e926de14776fd0edccb9",
+    "results/contract_stock_frontier/summary.csv": "707570c06567f6f3e847f6d3e095e5968e7ae06043c9ae9495eecfba462c9235"
+  },
+  "scenario_key_fields": [
+    "outage_h",
+    "recovery_h",
+    "utilization",
+    "replenish_factor",
+    "carbon_initial",
+    "product_initial",
+    "ramp",
+    "minimum",
+    "usable_hydrogen_fraction",
+    "delay_h"
+  ],
+  "interpretation": "Equality counts describe this chosen grid, not frequency, probability, coverage of all engineering regimes or a universal theorem."
+}

@@ -1,0 +1,16 @@
+{
+  "modules": 40,
+  "pem_pressure": 40.0,
+  "hydrogen_volume": 1000.0,
+  "h2_nominal_kg_h": 1700.0,
+  "utilization": 0.82,
+  "carbon_capacity": 360.0,
+  "carbon_initial": 288.0,
+  "product_capacity": 477.5879396984924,
+  "product_initial": 238.7939698492462,
+  "replenish_factor": 1.15,
+  "ramp": 0.05,
+  "minimum": 0.2,
+  "segments": 8,
+  "usable_hydrogen_fraction": 1.0
+}

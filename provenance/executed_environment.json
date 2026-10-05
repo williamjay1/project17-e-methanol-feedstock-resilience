@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-10-02T06:23:24.293349+00:00",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "package_versions": {
+    "numpy": "2.5.1",
+    "scipy": "1.18.0",
+    "pandas": "3.0.5",
+    "matplotlib": "3.11.1",
+    "openpyxl": "3.1.5",
+    "requests": "2.34.2",
+    "pypdf": "6.14.2",
+    "pdfplumber": "0.11.10"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "retrieved_utc": "2026-10-02T04:18:01.834869+00:00",
+  "sources": [
+    {
+      "url": "https://zenodo.org/api/records/15855884",
+      "path": "external_raw/zenodo15855884_metadata_20261002.json",
+      "bytes": 5862,
+      "md5": "dd46bb65c1191fc4ee1aed394b725f7e",
+      "sha256": "4dea17b8dbc7ffb683602905da59c3933c625615fe3b60c3c30b233da81a88fb"
+    },
+    {
+      "url": "https://zenodo.org/api/records/15855884/files/paper_energy_2025_inputs.zip/content",
+      "path": "external_raw/paper_energy_2025_inputs_20261002.zip",
+      "bytes": 22178556,
+      "md5": "61cc40ce647e4157912c19e21abc25bb",
+      "sha256": "db78a165c666bbf12ebe3a9668a1d63ff8f42e1a8130671bb5b07509f7d31727"
+    },
+    {
+      "url": "https://api.github.com/repos/CSEI-EU/Nord_H2ub/commits/b45920770693376581342065c77a8926ddd82f9f",
+      "path": "external_raw/Nord_H2ub_commit_b45920770693_20261002.json",
+      "bytes": 94385,
+      "md5": "ebba640d14782b723fe414986d302cd4",
+      "sha256": "54e9fc07c08525eab302000dfcf3bb69ce862c1519cd6be2521aac3bb8a4c812"
+    },
+    {
+      "url": "https://codeload.github.com/CSEI-EU/Nord_H2ub/zip/b45920770693376581342065c77a8926ddd82f9f",
+      "path": "external_raw/Nord_H2ub_b45920770693_20261002.zip",
+      "bytes": 528697617,
+      "md5": "281ac34203ad79d90ed4de23608b5816",
+      "sha256": "a1102fd7bdd5c96c7d58b34bb10211f1ea2ef70aa52e95c85180bb46d3980135"
+    },
+    {
+      "url": "https://api.energidataservice.dk/meta/dataset/DayAheadPrices",
+      "path": "external_raw/DayAheadPrices_metadata_20261002.json",
+      "bytes": 5499,
+      "md5": "46d4ff59dea7cabe1d1d0c15522ebc92",
+      "sha256": "d46da2246d51413fa1008e4d218506b7765ed7cd36616e8c166473166d341018"
+    },
+    {
+      "url": "https://api.energidataservice.dk/meta/dataset/Elspotprices",
+      "path": "external_raw/Elspotprices_metadata_20261002.json",
+      "bytes": 5756,
+      "md5": "44c21fe4372b9fc01e8797dde51d6d2b",
+      "sha256": "e35079a434412176624fa4e7ce27b407ff88b6d2f0607f99c25f910ad71efd74"
+    },
+    {
+      "url": "https://research.cbs.dk/files/116998179/1-s2.0-S0360544225028531-main.pdf",
+      "error": "403 Client Error: Forbidden for url: https://research.cbs.dk/files/116998179/1-s2.0-S0360544225028531-main.pdf"
+    },
+    {
+      "url": "https://api.energidataservice.dk/dataset/DayAheadPrices?start=2025-10-01&end=2026-01-01&filter=%7B%22PriceArea%22:%5B%22DK1%22%5D%7D&sort=TimeUTC&limit=0",
+      "path": "external_raw/DK1_DayAheadPrices_2025-10-01_2026-01-01_snapshot20261002.json",
+      "bytes": 1256881,
+      "md5": "ddfcb0e4159a4b6e9dbe8b57492927ea",
+      "sha256": "f02b739cdd1e2c965749282c0f27cd3724c6468bc58d11cafa3609732f712f20"
+    },
+    {
+      "url": "https://api.energidataservice.dk/dataset/DayAheadPrices?start=2026-01-01&end=2026-04-01&filter=%7B%22PriceArea%22:%5B%22DK1%22%5D%7D&sort=TimeUTC&limit=0",
+      "path": "external_raw/DK1_DayAheadPrices_2026-01-01_2026-04-01_snapshot20261002.json",
+      "bytes": 1231149,
+      "md5": "497abb485011cee6a9d1beabb882d366",
+      "sha256": "c59ee4514aa2653a3950cb0842605f1c821dd8475e237708afa03950121d80f8"
+    },
+    {
+      "url": "https://api.energidataservice.dk/dataset/DayAheadPrices?start=2026-04-01&end=2026-07-01&filter=%7B%22PriceArea%22:%5B%22DK1%22%5D%7D&sort=TimeUTC&limit=0",
+      "path": "external_raw/DK1_DayAheadPrices_2026-04-01_2026-07-01_snapshot20261002.json",
+      "bytes": 1245823,
+      "md5": "3fb1450845c889becd3b244cc0d74ee3",
+      "sha256": "7ec1153b6b4057e95c67c11298bdbbd47875308d1dfe6cfff2bc76807d0b1cd4"
+    },
+    {
+      "url": "https://api.energidataservice.dk/dataset/DayAheadPrices?start=2026-07-01&end=2026-10-01&filter=%7B%22PriceArea%22:%5B%22DK1%22%5D%7D&sort=TimeUTC&limit=0",
+      "path": "external_raw/DK1_DayAheadPrices_2026-07-01_2026-10-01_snapshot20261002.json",
+      "bytes": 1262615,
+      "md5": "fccdc61579198428495b4ebfcad1fbcd",
+      "sha256": "75b3b05ddc47249fc090ccd5f35abb8e66c4afa790412982bb900e4d7a0be892"
+    },
+    {
+      "url": "https://www.energidataservice.dk/terms-and-conditions",
+      "path": "external_raw/EDS_terms_CC_BY_4_20261002.html",
+      "bytes": 22385,
+      "md5": "04b7eb3c54607bd0a667ff64d444c701",
+      "sha256": "8fc87d6b991814651eb6456eeb985a5f7c495384108118892bdcdbcc5939dd4c"
+    }
+  ]
+}

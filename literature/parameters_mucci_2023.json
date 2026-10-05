@@ -1,0 +1,481 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-10-02",
+  "project": "project17_90",
+  "scope": "Independent public Mucci/Mitsos/Bongartz PtM process-model extraction; not an integration or a Giehl calibration.",
+  "publication": {
+    "title": "Cost-Optimal Power-to-Methanol: Flexible Operation or Intermediate Storage?",
+    "authors": [
+      "Simone Mucci",
+      "Alexander Mitsos",
+      "Dominik Bongartz"
+    ],
+    "doi": "10.1016/j.est.2023.108614",
+    "arxiv": "2305.18338v1",
+    "html_url": "https://arxiv.org/html/2305.18338v1",
+    "journal_url": "https://www.sciencedirect.com/science/article/pii/S2352152X2302011X"
+  },
+  "verification": {
+    "public_gams_found": true,
+    "author_code_statically_inspected": true,
+    "author_minlp_executed": false,
+    "workbook_read_only_inspected": true,
+    "original_optimum_reproduced": false,
+    "full_gams_run_blockers": [
+      "GAMS/GDXXRW and BARON execution not undertaken in this audit.",
+      "Referenced P_to_MeOH_opt_Des_Schedul_p.gdx warm-start file is absent from the recovered public archives.",
+      "Downloaded workbook must be provided as a working copy named Power_Price.xlsx; original raw file remains immutable."
+    ]
+  },
+  "sources": {
+    "gams": {
+      "url": "https://ars.els-cdn.com/content/image/1-s2.0-S2352152X2302011X-mmc4.zip",
+      "raw_path": "external_raw/mucci_2023/elsevier_S2352152X2302011X_mmc4_20261002.zip",
+      "member": "MeoH_flex_B_YES_V_YES.gms",
+      "locator_convention": "Original unedited member, one-based line numbers; named GAMS equations are original source identifiers."
+    },
+    "supplement": {
+      "url": "https://ars.els-cdn.com/content/image/1-s2.0-S2352152X2302011X-mmc1.pdf",
+      "raw_path": "external_raw/mucci_2023/elsevier_S2352152X2302011X_mmc1_20261002.pdf",
+      "locator_convention": "PDF page and section; displayed process equations are unnumbered."
+    },
+    "inputs": {
+      "url": "https://ars.els-cdn.com/content/image/1-s2.0-S2352152X2302011X-mmc2.xlsx",
+      "raw_path": "external_raw/mucci_2023/elsevier_S2352152X2302011X_mmc2_20261002.xlsx"
+    },
+    "arxiv_source": {
+      "url": "https://arxiv.org/src/2305.18338v1",
+      "raw_path": "external_raw/mucci_2023/arxiv_2305.18338v1_source_20261002.tar",
+      "member": "main.tex",
+      "locator_convention": "One-based lines of original main.tex; no invented equation numbers."
+    },
+    "journal_pdf": {
+      "url": "https://publications.rwth-aachen.de/record/964125/files/964125.pdf",
+      "access_status": "Inspected through public web reader. Shell downloads from RWTH and Juser returned HTML bot challenges, not usable PDFs."
+    }
+  },
+  "license": {
+    "journal_article": "CC BY 4.0; journal PDF page 1 and Crossref version-of-record metadata.",
+    "arxiv_v1": "arXiv perpetual, non-exclusive distribution license; not a CC software license.",
+    "gams_header": "Copyright 2023 Process Systems Engineering (AVT.SVT), RWTH Aachen University.",
+    "explicit_code_reuse_license_found": false,
+    "supplement_license_scope_verified": false,
+    "interpretation": "Public access is verified; permission for copying/modifying/redistributing the author code is not established by a separate software license. Independently implementing the published mathematical relations is distinct from copying that code."
+  },
+  "units": {
+    "time_step_h": 1,
+    "horizon_steps": 1440,
+    "hydrogen_flow": "kg H2/h",
+    "hydrogen_inventory": "kg usable H2 above 75-bar cushion",
+    "methanol_flow": "kg MeOH/h unless explicitly t/h",
+    "methanol_product": "AA-grade final methanol; Appendix A.4 specifies 99.85 wt% purity. Not Giehl raw-methanol energy flow.",
+    "electrical_power": "MW electric",
+    "cooling_duty": "MW thermal removal; not chiller electricity",
+    "pressure": "bar",
+    "volume": "m3",
+    "battery_energy": "MWh",
+    "carbon_dioxide_flow": "t CO2/h in GAMS",
+    "costs": "2021 EUR; GAMS hourly OPEX is kEUR and aggregate costs are MEUR"
+  },
+  "pilot_core": {
+    "status": "Verified exact author-code extraction; directly usable affine synthesis/buffer core with caller-specified nominal size. No startup data introduced.",
+    "minimum_methanol_load_fraction": 0.2,
+    "maximum_methanol_load_fraction": 1.0,
+    "ramp_up_nominal_fraction_per_hour": 0.05,
+    "ramp_down_nominal_fraction_per_hour": 0.05,
+    "hydrogen_kg_per_kg_methanol": 0.19124,
+    "hydrogen_kg_per_t_methanol": 191.24,
+    "methanol_kg_per_kg_hydrogen_derived": 5.229031583350763,
+    "hydrogen_LHV_MJ_per_kg": 120,
+    "hydrogen_LHV_MWh_per_t_methanol_derived": 6.374666666666667,
+    "process_electricity_MWh_per_t_methanol": 0.1847,
+    "process_cooling_MWh_thermal_per_t_methanol": 1.3844,
+    "process_CO2_t_per_t_methanol": 1.5494,
+    "net_external_process_heat_MWh_thermal_per_t_methanol": 0.0,
+    "reference_process_scale_t_methanol_h": 9.935,
+    "source_code_explicit_nominal_scale_upper_t_methanol_h": 10.0,
+    "source_code_effective_nominal_scale_upper_t_methanol_h_derived": 9.412256850031374,
+    "maximum_scale_interpretation": "Bounds of the supplied scenario, not a universal technological limit or evidence for unlimited linear scale-up.",
+    "heat_status": "Reference Aspen heat-integrated process has zero net external heating; not a claim of zero gross reboiler duty or a fitted exportable-heat coefficient.",
+    "equations_using_m_t_in_t_per_h": [
+      "0.2*m_nom <= m_t <= m_nom",
+      "-0.05*m_nom <= m_t-m_(t-1) <= 0.05*m_nom, t>=2; hourly time steps",
+      "q_H2_to_MeOH_t = 191.24*m_t, kg/h",
+      "P_MeOH_t = 0.1847*m_t, MW",
+      "Q_cool_MeOH_t = 1.3844*m_t, MW thermal",
+      "q_CO2_t = 1.5494*m_t, t/h",
+      "S_t = S_(t-1) + (q_H2_produced_t-q_H2_to_MeOH_t)*1 h",
+      "S_0 = 1 kg; S_t = 0.072864*V*(p_storage_t-75); 75<=p_storage_t<=140 bar"
+    ],
+    "source_locators": [
+      "GAMS lines 90-93: Ramp_Constr=0.05, Min_load_MEOH=0.2, reference capacity 9935 kg/h.",
+      "GAMS H2_flow_low_lim/H2_flow_up_lim, lines 280-281; MeOH_flowrate_NOM_calc, line 287.",
+      "GAMS Power_MeOH_calc/Cool_MeOH_calc/CO2_MeOH_calc, lines 290-292.",
+      "GAMS MeOH_MeOH_flowrate_up/down, lines 297-298.",
+      "GAMS H2_storage_balance_1/H2_storage_balance/Mass_content_storage, lines 277-279.",
+      "Supplement sections 1.4-1.5, PDF pages 5-6.",
+      "arXiv section 5.2 minimum-load/no-shutdown/ramp discussion, main.tex lines 382-411; Appendix A.4, main.tex lines 671-695 and Table A.3. Final journal section 5.2, pages 7-8, Tables 4-5."
+    ],
+    "must_not_import_from_giehl": [
+      "No standing H2 inventory-loss factor appears in the author Mucci balance; modeled hourly retention is 1.0, not the ambiguous Giehl percentage.",
+      "No Giehl raw/refined-MeOH conversion ratio or Giehl methanol LHV is needed for the mass-based Mucci constraints.",
+      "The 0.1847 electricity coefficient excludes upstream electrolysis and upstream H2 compression; keep those separate.",
+      "Cooling duty must not be counted as electricity without an independently specified cooling-system model."
+    ]
+  },
+  "methanol": {
+    "ramp_is_fraction_of_nominal_not_previous_load": true,
+    "source_code_nominal_H2_flow_bounds_kg_h": [
+      1700,
+      1800
+    ],
+    "source_code_nominal_H2_flow_initial_guess_kg_h": 1750,
+    "initial_guess_is_not_an_optimum": true,
+    "reference_methanol_kg_h": 9935,
+    "reference_capex_MEUR": 27.8,
+    "capex_scaling_exponent": 0.6,
+    "operational_power_upper_bound_MW": 2.5,
+    "operational_cooling_upper_bound_MW": 20,
+    "operational_CO2_upper_bound_t_h": 20,
+    "initial_load_fixed": false,
+    "terminal_load_cyclic": false,
+    "shutdown_allowed": false,
+    "startup_or_shutdown_costs_supplied": false,
+    "startup_time_or_minimum_up_down_times_supplied": false,
+    "paper_ramp_sensitivity_nominal_fraction_per_hour": [
+      0.0,
+      0.05,
+      0.1,
+      0.25
+    ],
+    "supplement_rounded_relations": {
+      "methanol_kg_per_kg_H2": 5.23,
+      "electricity_MWh_per_t_MeOH": 0.185,
+      "cooling_MWh_per_t_MeOH": 1.38,
+      "CO2_t_per_t_MeOH": 1.55,
+      "locator": "Supplement section 1.5, PDF pages 5-6; use precise GAMS values for reproducing supplied code."
+    }
+  },
+  "hydrogen_buffer": {
+    "density_slope_kg_per_m3_per_bar": 0.072864,
+    "paper_rounded_density_slope": 0.073,
+    "cushion_pressure_bar": 75,
+    "source_code_pressure_bounds_bar": [
+      75,
+      140
+    ],
+    "source_code_volume_bounds_m3": [
+      800,
+      1500
+    ],
+    "initial_usable_inventory_kg": 1,
+    "modeled_hourly_inventory_retention": 1.0,
+    "standing_loss_parameter_present": false,
+    "terminal_inventory_constraint_present": false,
+    "usable_capacity_equation_kg": "S_max=0.072864*V*(min(140,p_PEM*beta_max)-75), if upper pressure >=75 bar",
+    "native_balance_equation": "S_t=S_(t-1)+q_prod_t-q_MeOH_t, with 1 h implicit",
+    "native_inventory_pressure_equation": "S_t=0.072864*V*(p_storage_t-75)",
+    "locators": [
+      "GAMS lines 80-81, 256-262, 274-279",
+      "Supplement section 1.4, page 5",
+      "arXiv main.tex lines 228-235"
+    ]
+  },
+  "electrolyzer": {
+    "module_nominal_power_MW": 2.0,
+    "module_maximum_power_MW": 2.5,
+    "module_minimum_ON_power_MW": 0.525,
+    "source_code_module_count_bounds_integer": [
+      35,
+      40
+    ],
+    "source_code_pressure_bounds_bar": [
+      35,
+      40
+    ],
+    "efficiency_basis": "Hydrogen LHV",
+    "efficiency_equation": "eta=0.8126-0.101*x-0.0003118*p_PEM+0.01397*x^2; x=P_PEM/N in MW/module, pressure in bar",
+    "efficiency_coefficients": {
+      "a00_dimensionless": 0.8126,
+      "a10_per_MW": -0.101,
+      "a01_per_bar": -0.0003118,
+      "a20_per_MW_squared": 0.01397
+    },
+    "production_equation_kg_h": "q_prod=3600*P_PEM*eta/120=30*P_PEM*eta",
+    "ON_OFF_constraint": "0.525*N*z_t<=P_PEM_t<=2.5*N*z_t; z_t binary",
+    "production_upper_bound_kg_h": 1950,
+    "efficiency_bounds": [
+      0.5,
+      0.85
+    ],
+    "efficiency_at_maximum_load_upper_bound": 0.7,
+    "auxiliary_power_fraction_of_PEM_power": 0.05,
+    "thermal_removal_equation_MW": "Q_PEM=P_PEM-(142/3600)*q_prod; HHV=142 MJ/kg",
+    "locators": [
+      "GAMS lines 60-70, 238-253, 267, 311",
+      "arXiv Appendix A.1, equation and Table A.1, main.tex line 603 onward",
+      "Supplement section 1.2, pages 3-4"
+    ]
+  },
+  "compressor": {
+    "inlet_temperature_K": 298,
+    "hydrogen_cp_kJ_per_kg_K": 14.63,
+    "isentropic_efficiency": 0.8,
+    "mechanical_efficiency": 0.9,
+    "isentropic_exponent": 0.289267946,
+    "specific_prefactor_kJ_per_kg_derived": 6055.194444444443,
+    "pressure_ratio_equation": "beta_t=p_storage_t/p_PEM",
+    "pressure_ratio_lower_bound": 1.87,
+    "maximum_pressure_ratio_design_bounds": [
+      1.87,
+      3.5
+    ],
+    "power_equation_MW": "P_comp=(q_prod/3600)*(14.63*298/(0.8*0.9))*(beta^0.289267946-1)/1000",
+    "power_upper_bound_MW": 1.75,
+    "design_power_bounds_kW": [
+      100,
+      1750
+    ],
+    "design_H2_mass_flow_units": "kg/s; NOT kg/h",
+    "design_H2_mass_flow_upper_bound_kg_s": 0.6,
+    "design_power_equation_kW": "P_comp_max=q_prod_max_kg_s*(14.63*298/(0.8*0.9))*(beta_max^0.289267946-1)",
+    "compressor_cooling_relation": "Q_comp=P_comp; inferred directly from cooling-cost expression in GAMS line 311.",
+    "parallel_compressors": 2,
+    "paper_each_compressor_load_range_fraction": [
+      0.5,
+      1.0
+    ],
+    "paper_aggregate_load_range_fraction": [
+      0.25,
+      1.0
+    ],
+    "code_load_enforcement_note": "No separate explicit P_comp>=0.25*P_comp_max equation. Paper explains electrolyzer minimum load as limiting compressor feed; GAMS imposes PEM binary minimum 0.525 MW/module.",
+    "locators": [
+      "GAMS lines 74-87, 256-272, 311",
+      "arXiv section 3.3, main.tex lines 210-214 and Table 4",
+      "arXiv Appendix A.2, Table A.2",
+      "Supplement section 1.3, page 4"
+    ]
+  },
+  "battery": {
+    "charge_efficiency": 0.99,
+    "discharge_efficiency_DC": 0.96,
+    "discharge_DC_AC_efficiency": 0.99,
+    "hourly_retention": 0.99992,
+    "minimum_SOC_fraction": 0.1,
+    "initial_and_final_SOC_fraction": 0.15,
+    "minimum_active_charge_or_discharge_power_MW": 0.5,
+    "maximum_charge_or_discharge_power_MW": 100,
+    "maximum_power_per_nominal_energy_per_hour": 0.9,
+    "source_code_capacity_bounds_MWh": [
+      5,
+      400
+    ],
+    "simultaneous_charge_discharge_forbidden_by_binary": true,
+    "balance_equation": "E_t=0.99992*E_(t-1)+0.99*P_in_t-P_out_t/0.96; 1 h implicit; E_0=E_T=0.15*E_nom",
+    "split_equation": "P_out=P_back_to_grid/0.99+P_to_PEM",
+    "locators": [
+      "GAMS lines 51-56, 216-232",
+      "Supplement section 1.1, pages 1-2"
+    ]
+  },
+  "economics": {
+    "electricity_price_units": "EUR/MWh",
+    "cooling_cost_EUR_per_MWh_thermal": 1,
+    "CO2_cost_EUR_per_t": 50,
+    "USD_to_EUR": 0.85,
+    "plant_life_years": 20,
+    "discount_rate": 0.05,
+    "annual_maintenance_fraction_initial_CAPEX": 0.05,
+    "electrolyzer_replacement_year": 10,
+    "annual_operating_hours_code": 8064,
+    "annual_operating_hours_supplement_rounded": 8000,
+    "annualization_factor_code": 5.6,
+    "discount_factor_equation": "A=sum(y=1..20,(1.05)^(-y))",
+    "hourly_OPEX_EUR_equation": "C_h=(P_in-P_back+P_PEM_direct+0.05*P_PEM+P_comp+P_MeOH)*price_h +1*(P_PEM-q_prod*142/3600+P_comp+Q_MeOH)+50*q_CO2_tph; 1 h implicit",
+    "annual_OPEX_EUR_equation": "OPEX_y=(8064/1440)*sum(C_h)",
+    "annual_MeOH_kg_equation": "M_y=(8064/1440)*sum(q_MeOH/0.19124)",
+    "total_discounted_cost_equation": "C_tot=CAPEX_0+CAPEX_PEM/(1.05)^10 + A*(OPEX_y+0.05*CAPEX_0)",
+    "objective_EUR_per_kg": "minimize LCOM=C_tot/(A*M_y)",
+    "code_extra_bounds": {
+      "hourly_OPEX_lower_kEUR": -25,
+      "annual_OPEX_lower_MEUR": 0.1,
+      "CAPEX_lower_MEUR": 25,
+      "discounted_total_cost_lower_MEUR": 50,
+      "discounted_MeOH_lower_million_kg": 1
+    },
+    "minimum_annual_40kt_not_in_recovered_base_code": true,
+    "capital_cost_equations_MEUR": {
+      "battery": "0.368*E_nom*0.85",
+      "PEM_specific_MEUR_per_MW": "(585.85+9458.2*(N*2*1000)^(-0.378)*(2021/2020)^(-158.9))*1.75*0.85*1.1875/1000",
+      "PEM": "N*2*PEM_specific",
+      "vessel": "V*7800*0.85/1e6",
+      "methanol": "27.8*(m_nom_kg_h/9935)^0.6",
+      "compressor": "2*C0_comp*(P_comp_max_kW/(2*74.57))^0.77/1e6; C0_comp=23000*0.85*6.15*3.11*1.85",
+      "heat_exchanger": "C0_HE*(P_comp_max_kW*C1_HE)^0.65/1e6; C0_HE=5000*0.85*6.15*(2.25*1.35+3.29-1)*1.85; C1_HE=10.764/(20*0.2*400)"
+    },
+    "locators": [
+      "GAMS lines 31-48, 84-87, 300-322",
+      "Supplement section 1.6, pages 6-8",
+      "arXiv section 4, objective main.tex line 292 and Table 2 lines 304-313; final journal section 4 and Table 3"
+    ]
+  },
+  "input_calibration": {
+    "active_GAMS_import": "Power_Price.xlsx: Day-ahead!A2:B1441; column A index, B electricity price",
+    "source_code_locator": "GAMS lines 43-45",
+    "hour_indices_verified": "All four sheets have 1440 observations with indices 1..1440.",
+    "timestamp_mapping": "Workbook contains integer hour indices, not explicit timestamps or timezone. Do not invent exact UTC/DST correspondence.",
+    "workbook_series": [
+      {
+        "sheet": "Day-ahead",
+        "range": "A2:B1441",
+        "label": "Historical 2022",
+        "units": "EUR/MWh",
+        "min": -1.05,
+        "max": 399.85,
+        "mean": 154.05996527777776
+      },
+      {
+        "sheet": "Day-ahead (2021)",
+        "range": "A2:B1441",
+        "label": "Historical 2021",
+        "units": "EUR/MWh",
+        "min": -3.84,
+        "max": 136.71,
+        "mean": 50.84160416666667
+      },
+      {
+        "sheet": "Power availability (Summer)",
+        "range": "A2:B1441",
+        "label": "Summer",
+        "units": "MW",
+        "min": 0.85125,
+        "max": 166.0935,
+        "mean": 52.143440625
+      },
+      {
+        "sheet": "Power availability (Winter)",
+        "range": "A2:B1441",
+        "label": "Winter",
+        "units": "MW",
+        "min": 1.5585,
+        "max": 137.59725,
+        "mean": 38.77146302083333
+      }
+    ],
+    "standalone_model_variant_in_recovered_code": false
+  },
+  "continuous_reduction": {
+    "exact_affine_core": "Fix nominal synthesis size and buffer volume; use the pilot_core equations. This reproduces the synthesis constraints and inventory balance, but not the complete upstream author MINLP.",
+    "startup_data_added": false,
+    "native_H2_loss_retained": "No standing-loss term; do not import Giehl loss.",
+    "optional_cyclic_H2_terminal": "S_T=S_0 is a separate explicit modeling variant, not an original constraint.",
+    "upstream_LP_caution": "PEM 0-or-minimum-load disjunction, pressure-dependent compression and nonlinear efficiency are not exact continuous-LP constraints. Continuous epigraph PWL requires a tightness condition; SOS2 graph enforcement is not a pure LP.",
+    "objective_caution": "Fixed-throughput cost minimization is an LP after affine approximation, but differs from unconstrained levelized-cost minimization. Fixed-design native LCOM is linear-fractional and can be solved by LP-based fractional programming. Joint nonlinear CAPEX design is not a single LP.",
+    "numerical_approximation_validation": "Detailed independent reduction and approximation-error checks are recorded in mucci_process_model_audit_20261002.md; no pilot reduction has been integrated or claimed as author-calibrated."
+  },
+  "independently_derived_PWL_example": {
+    "status": "Optional mathematical approximation derived solely from author polynomial; not author-supplied knots, not the pilot calibration, and not implemented.",
+    "fixed_module_count": 40,
+    "fixed_PEM_pressure_bar": 40,
+    "module_power_knots_MW": [
+      0.525,
+      1.0,
+      1.5,
+      2.0,
+      2.5
+    ],
+    "total_power_knots_MW": [
+      21.0,
+      40.0,
+      60.0,
+      80.0,
+      100.0
+    ],
+    "H2_production_knots_kg_h": [
+      473.1006931875,
+      855.7176,
+      1224.1089,
+      1569.6192,
+      1904.8215
+    ],
+    "inverse_PWL_equation": "P_hat(q)=max_j(a_j*q+b_j), with q in kg/h and P in MW, only on the specified ON-domain.",
+    "slopes_MWh_per_kg": [
+      0.049658025198846954,
+      0.05429009859896257,
+      0.05788539444410193,
+      0.05966546172266719
+    ],
+    "intercepts_MW": [
+      -2.4932461438968367,
+      -6.456992876867609,
+      -10.858026519035718,
+      -13.65205429676351
+    ],
+    "maximum_overestimate_MW": 0.23220516059811347,
+    "maximum_relative_power_overestimate_fraction": 0.007867184393386495,
+    "validation_method": "For each chord, evaluate the cubic power-error function at endpoints and all real derivative roots within the segment; relative-error extrema evaluated analytically. Floating-point negative endpoint residuals are below 1.1e-14 MW.",
+    "LP_epigraph_constraints": "P>=a_j*q+b_j for all j, 473.1006931875<=q<=1904.8215, 21<=P<=100. This enforces an epigraph, not equality; require objective/constraint tightness or replay validation.",
+    "off_state_caution": "Fixing the electrolyzer ON restricts the native model. Adding an origin-to-minimum chord admits fractional-hour operation below the native minimum and is an explicit relaxation. Neither is an exact reproduction of the native binary disjunction."
+  },
+  "independently_derived_compressor_approximation": {
+    "status": "Optional fixed maximum-pressure conservative energy-demand approximation; not an author replacement model.",
+    "fixed_PEM_pressure_bar": 40,
+    "minimum_effective_beta": 1.875,
+    "maximum_beta": 3.5,
+    "specific_electricity_MWh_per_t_H2_at_minimum_beta": 0.3354205596661535,
+    "specific_electricity_MWh_per_t_H2_at_maximum_beta": 0.7346141607360582,
+    "constant_power_equation_MW": "P_comp_hat=0.7346141607360582*q_prod_kg_h/1000",
+    "maximum_absolute_specific_overestimate_MWh_per_t_H2": 0.39919360106990476,
+    "maximum_relative_compressor_power_overestimate_fraction": 1.190128599949941,
+    "caution": "Conservative compressor electricity at low inventory can be about 119% too high. Do not claim this is a precise pressure-dependent model or a physical-feasibility upper-bound relaxation."
+  },
+  "numerical_checks": {
+    "reference_process_reconstruction": {
+      "MeOH_kg_h": 9935,
+      "H2_kg_h": 1899.9694,
+      "electricity_MW": 1.8349945,
+      "cooling_MW": 13.754014,
+      "CO2_t_h": 15.393289
+    },
+    "discount_factor_derived": 12.462210342539981,
+    "usable_H2_kg_at_V1000_p140_derived": 4736.16,
+    "code_compressor_recalculation_vs_Aspen_Table_A2": [
+      {
+        "beta": 2.0,
+        "code_kW": 709.5309976742817,
+        "Aspen_kW": 710,
+        "relative_error_percent": -0.06605666559412748
+      },
+      {
+        "beta": 2.5,
+        "code_kW": 969.9268410432217,
+        "Aspen_kW": 973,
+        "relative_error_percent": -0.3158436749001403
+      },
+      {
+        "beta": 3.0,
+        "code_kW": 1195.5228669704704,
+        "Aspen_kW": 1202,
+        "relative_error_percent": -0.5388629808260825
+      },
+      {
+        "beta": 3.5,
+        "code_kW": 1395.7669053985107,
+        "Aspen_kW": 1406,
+        "relative_error_percent": -0.7278161167488806
+      }
+    ],
+    "compressor_validation_scope": "Four published points at 1900 kg/h and 40-bar inlet, not independent low-load transient validation."
+  },
+  "known_source_discrepancies": [
+    "Paper/supplement round MeOH ratios; exact supplied GAMS uses 0.19124 H2/kg MeOH, 0.1847 electric, 1.3844 cooling and 1.5494 CO2 per tonne MeOH.",
+    "Paper nominal PEM minimum 25% (0.5 MW/module), while supplied GAMS uses 0.525 MW/module (26.25% of nominal).",
+    "Paper design bounds are broader than the recovered single GAMS scenario: N=10..40 and p_PEM=20..40 bar versus code 35..40 and 35..40 bar.",
+    "arXiv v1 vessel upper bound 5000 m3; final journal Table 4 upper bound 7500 m3; recovered GAMS 800..1500 m3.",
+    "Supplement prints battery cost 368 USD/MWh; code 0.368 MUSD/MWh and final journal Table A.5 368 USD/kWh agree with each other, not that literal supplement unit.",
+    "Supplement annualization uses 8000 h; code 48*7*24=8064 h.",
+    "GAMS LCOM comment MEUR/kt is dimensionally inconsistent with its denominator in million kg; the numerical objective is EUR/kg.",
+    "Article CC BY 4.0 is verified; an explicit software reuse grant for the GAMS member was not found."
+  ]
+}

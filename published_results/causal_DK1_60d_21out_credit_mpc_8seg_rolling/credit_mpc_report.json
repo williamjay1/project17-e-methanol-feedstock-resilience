@@ -1,0 +1,31 @@
+{
+  "policy": "credit_mpc",
+  "status": "executed_with_delivery_deficits",
+  "realized_outage_h": 504,
+  "design_max_outage_h": 504,
+  "backup_t_day": 242.12,
+  "complete_hours": 1440,
+  "obligation_t": 10496.548839154988,
+  "delivered_t": 10174.342820948457,
+  "undelivered_or_unexecuted_t": 322.20601820653064,
+  "measured_model_shortfall_t": 322.2060182065309,
+  "unexecuted_hours": 0,
+  "hard_service_failure_days": [
+    57
+  ],
+  "terminal": {
+    "C": 288.0,
+    "H": 0.03333333333333333,
+    "M": 238.7939698492462
+  },
+  "total_exact_operating_cost_EUR": 10647511.465193223,
+  "worst_solve_seconds": 6.173374600009993,
+  "maximum_solver_constraint_violation": 1.9055520485026527e-10,
+  "maximum_feasible_incumbent_mip_gap": 9.951157332706177e-07,
+  "price_information": "Current whole-day prices assumed released before daily dispatch; future forecasts use past revealed prices only.",
+  "forecast_mode": "rolling",
+  "admission_witness": null,
+  "event_information": "Only supplier status at each daily boundary; unknown actual future return. Single onset at day zero, day-aligned repair.",
+  "precollection_capacity_enforced": true,
+  "optimization": "72h native service horizon, first24h PWL cost; credit certificates as policy-specific. After a failure, latched service-first remaining-episode emergency. Tail power is a forecast-cost surrogate."
+}

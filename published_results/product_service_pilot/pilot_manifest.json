@@ -1,0 +1,32 @@
+{
+  "process": {
+    "label": "Giehl_encoded_reduction",
+    "co2_t_per_t": 1.4,
+    "h2_mwh_per_t": 7.242895411134405,
+    "eta": 0.7454543803758007,
+    "aux_mwh_per_t": 0.40334880180000005,
+    "qmax": 4.411499642141228,
+    "qmean": 3.6529688442211055,
+    "minimum": 0.2,
+    "ramp": 0.5,
+    "pem_max": 52.0,
+    "carbon_cap": 360.0,
+    "carbon_initial": 288.0,
+    "product_cap": 477.58793969849245,
+    "product_initial": 238.79396984924622,
+    "hydrogen_hours": 3.0,
+    "replenish_factor": 1.15
+  },
+  "hours": 1344,
+  "scope": "Optimistic full-foresight diagnostic LP; NOT final analysis, NOT causal controller, NOT replication of full Giehl MILP or Mucci MINLP; continuous low-load synthesis; fixed equal daily product contracts and restored inventories",
+  "sources": {
+    "Giehl": "https://zenodo.org/records/15855884",
+    "code_commit": "b45920770693376581342065c77a8926ddd82f9f",
+    "floor": "Mucci2023 section5.2 Table4 https://arxiv.org/html/2305.18338v1",
+    "ramp": "Giehl prepared Object__to_from_node rows11-12;50% nominal/h",
+    "eta": "Aggregate H2energy/electricity from unshocked public output; pilot reduction only",
+    "H2buffer": "3 mean-consumption hours: design scenario; no leak in cheap pilot",
+    "initial_stocks": "CO280%nameplate and MeOH50%model2640MWh cap: design, not observations",
+    "replenishment": "15% above mean modeled demand: design scenario, not permit-to-hour inference"
+  }
+}
