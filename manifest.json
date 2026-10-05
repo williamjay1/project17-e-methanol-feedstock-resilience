@@ -4,8 +4,8 @@
   "files": [
     {
       "path": ".gitattributes",
-      "bytes": 112,
-      "sha256": "4d4e93d0b7fee9dd87ae74090b856db44492240a67083b214c6e5b3bed72bc54"
+      "bytes": 149,
+      "sha256": "aaac26ecdd30ff86bdb144c2e5677230e02888ee5e162f1f01824b22e0d8556e"
     },
     {
       "path": ".gitignore",
@@ -288,6 +288,11 @@
       "sha256": "4d119c71ae92a1294c124094931f6dc2c9efe1dea6bbbe71991491f8425a674b"
     },
     {
+      "path": "published_results/contract_stock_frontier/manifest.json",
+      "bytes": 35269,
+      "sha256": "46207a550c99a5cb2cfb316687c91731c3fb9399f96928b812392cfbd6a85a33"
+    },
+    {
       "path": "published_results/contract_stock_frontier/summary.csv",
       "bytes": 12788,
       "sha256": "707570c06567f6f3e847f6d3e095e5968e7ae06043c9ae9495eecfba462c9235"
@@ -328,6 +333,11 @@
       "sha256": "72147356a7ef8a432a7e185cafcbee3e23795a63705b8da10dc32ffadb81fed2"
     },
     {
+      "path": "published_results/fair_reference_frontiers/manifest.json",
+      "bytes": 8120,
+      "sha256": "c37ffe4e1b3e12aacbf11001ae995b3bf6ce264d306a667f0e218dda85945eff"
+    },
+    {
       "path": "published_results/fair_reference_frontiers/summary.csv",
       "bytes": 3094,
       "sha256": "1bf394da31e213c64c6b0853201993bb03539052875bbe5a9e44271ed96c4ca3"
@@ -356,6 +366,11 @@
       "path": "published_results/mucci_service_1440h_8seg/fixed_min_backup_trace.csv",
       "bytes": 375479,
       "sha256": "8a380a91b943ac9047b92d8dc30fee82fad2512e437ee7c2d350c533cac07d2e"
+    },
+    {
+      "path": "published_results/mucci_service_1440h_8seg/manifest.json",
+      "bytes": 3896,
+      "sha256": "39a17b9d860de36709aa83eb6a005e0d21468a74fabd256bfdeb1794368c7b09"
     },
     {
       "path": "published_results/mucci_service_1440h_8seg/noshock_trace.csv",
@@ -406,6 +421,11 @@
       "path": "published_results/native_service_boundaries/adjustable_504h_r1.4_trace.csv",
       "bytes": 364012,
       "sha256": "de9834055fa4bfdc1274298d81e9df291dafd415a7b3ed5192ab51a172300de0"
+    },
+    {
+      "path": "published_results/native_service_boundaries/manifest.json",
+      "bytes": 13159,
+      "sha256": "8fcf033d66fdd8fa43cb11b65a66385eea57450e23d49470a1e1cfdbe78e3dd2"
     },
     {
       "path": "published_results/native_service_boundaries/summary.csv",
@@ -543,6 +563,11 @@
       "sha256": "8527622ce2f5d3c0aeec55a72828eafe0a84a8e134a93ee0b893be9adff7d770"
     },
     {
+      "path": "published_results/process_service_frontier/manifest.json",
+      "bytes": 36774,
+      "sha256": "e2cc9cb780269c2592f678e290b41a4f61a05a325bf09995370e95705b805f84"
+    },
+    {
       "path": "published_results/process_service_frontier/summary.csv",
       "bytes": 12687,
       "sha256": "4cf651f653dd827c7dc82f55e7200a15a85ab13a3d28e926de14776fd0edccb9"
@@ -596,6 +621,11 @@
       "path": "published_results/public_acquisition_manifest.json",
       "bytes": 4276,
       "sha256": "439084adc34be8f5e4578ada6489979492a61d22c433024d7f670d6c87508ff9"
+    },
+    {
+      "path": "published_results/recovery_window_frontier/manifest.json",
+      "bytes": 21271,
+      "sha256": "4dd5bc06b83a717ab9b4c1098888bec81f2d074347104c2b5c243f654abeca54"
     },
     {
       "path": "published_results/recovery_window_frontier/outage14_recover14_trace.csv",
