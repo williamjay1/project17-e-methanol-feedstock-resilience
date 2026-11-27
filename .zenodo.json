@@ -1,0 +1,23 @@
+{
+  "title": "CO2 Backup Requirements for Flexible E-Methanol Production under Supply Interruptions: code and derived data",
+  "version": "1.1.0",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "mit",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "Zhang, Junjie",
+      "affiliation": "Shanghai International Studies University",
+      "orcid": "0009-0004-8821-4018"
+    }
+  ],
+  "keywords": [
+    "e-methanol",
+    "CO2 supply interruption",
+    "backup capacity",
+    "inventory restoration",
+    "model predictive control"
+  ],
+  "description": "<p>Code and derived model outputs for the revised engineering study of firm CO2 backup and daily methanol delivery. Version 1.1.0 retains the original model and adds 36 sizing solves and 16 controller tests. The archive includes scheduling benchmarks, inventory and delay sensitivities, operating traces, independent equation checks, and documented infeasible or unexecuted outcomes. See LICENSES.md for code, data, and third-party terms.</p>"
+}

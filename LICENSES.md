@@ -11,3 +11,5 @@
 | Original Nord_H2ub software | Original repository GPL-3.0 | Not included, not executed as this independent model, and not licensed by the top-level MIT grant |
 
 The contributors license newly generated result datasets and figures under CC BY 4.0. This license covers their contribution only and does not supersede rights held in underlying third-party material. No original German price series or initialization/forecast-price vectors are included. Related hourly German/forecast expenses are also omitted; aggregated model expense summaries and physical/dispatch results remain clearly derived outputs. Download the publisher input directly for recomputation; numerical agreement and attribution do not create redistribution permission.
+
+The revision bundle includes independently authored software under MIT, derived tables and physical execution traces under CC BY 4.0, and a minimal subset of the original release with its source and license notices. The Danish price series carries the Energinet attribution above. The process-model workbook is obtained separately from its publisher when needed.

@@ -1,0 +1,3 @@
+outage_hours,first_hour_one_based,excess_demand_to_terminal_t,required_opening_of_suffix_t,tank_capacity_t
+336,995,401.29483951695727,689.2948395169573,360.0
+504,995,401.29483951695727,689.2948395169573,360.0

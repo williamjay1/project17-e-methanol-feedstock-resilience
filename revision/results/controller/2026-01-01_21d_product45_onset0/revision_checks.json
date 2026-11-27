@@ -1,0 +1,23 @@
+{
+  "start": "2026-01-01",
+  "duration_days": 21,
+  "opening": "product45",
+  "onset_day": 0,
+  "C0_t": 288.0,
+  "M0_t": 214.91457286432157,
+  "status": "full_service",
+  "executed_h": 1440,
+  "days_met": 60,
+  "shortfall_t": 0.0,
+  "delivered_t": 10496.548839154988,
+  "C_margin_t": 0.0,
+  "H_margin_MWh": 0.0,
+  "M_margin_t": 0.0,
+  "hard_service_failure_days": [],
+  "max_balance_residual": 2.632418727444019e-10,
+  "max_capacity_violation": 5.453415496958769e-13,
+  "max_daily_shortfall_t": 0.0,
+  "cost_eur": 10966503.756966915,
+  "unexecuted_h": 0,
+  "terminal_assessed": true
+}

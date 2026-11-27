@@ -1,6 +1,12 @@
 # E-methanol feedstock resilience: code and derived data
 
-Portable reproducibility package for **CO2 Backup Requirements for Flexible E-Methanol Production under Supply Interruptions**. Repository version: **1.0.0**. This is engineering scenario analysis, not measured Kassø plant operation, not certification evidence, and not a reproduction of the original Mucci nonlinear optimum or complete Giehl model.
+Portable reproducibility package for **CO2 Backup Requirements for Flexible E-Methanol Production under Supply Interruptions**. Repository version: **1.1.0**. This is engineering scenario analysis, not measured Kassø plant operation, not certification evidence, and not a reproduction of the original Mucci nonlinear optimum or complete Giehl model.
+
+## Revision results (v1.1.0)
+
+The [revision directory](revision/README.md) contains 36 sizing solves and 16 controller tests, their inputs and numerical outputs, and verification and rerun commands. The revision compares outage-aware repeating-day plans, daily setpoints and hourly load adjustment. It assesses tank scale, opening inventories, recovery rates and time, ramp and response delay. The controller tests vary the date, starting stock, time until repair and an unannounced interruption after seven days. Outcomes distinguish failed hard service, simulated delivery loss and unexecuted hours.
+
+The original procedures and results below reproduce the initial baseline.
 
 ## What is reproducible
 
@@ -65,4 +71,4 @@ No private data, credentials, manuscript draft, internal reviewer notes or publi
 
 GitHub: https://github.com/williamjay1/project17-e-methanol-feedstock-resilience
 
-Cite the exact commit/version you used. This repository has **no project DOI yet**. Source DOI `10.5281/zenodo.15855884` belongs to Giehl and colleagues, not this project. Responsible human creators will supply their verified identities, affiliation/ORCID where applicable, and create the Zenodo archive personally. No fabricated `CITATION.cff` authors or dummy DOI are embedded. Follow `docs/ZENODO_HANDOFF.md`: enable the repository in Zenodo **before creating the release**, then verify the generated archive and version-specific DOI.
+Cite Junjie Zhang (Shanghai International Studies University, ORCID 0009-0004-8821-4018) and the version-specific Zenodo record for the [corresponding GitHub release](https://github.com/williamjay1/project17-e-methanol-feedstock-resilience/releases/tag/v1.1.0). The [concept DOI](https://doi.org/10.5281/zenodo.23162312) identifies the version family. The [original version 1.0.0](https://doi.org/10.5281/zenodo.23162313) documents the initial baseline.

@@ -1,0 +1,23 @@
+{
+  "start": "2026-01-01",
+  "duration_days": 21,
+  "opening": "carbon70",
+  "onset_day": 0,
+  "C0_t": 251.99999999999997,
+  "M0_t": 238.7939698492462,
+  "status": "full_service",
+  "executed_h": 1440,
+  "days_met": 60,
+  "shortfall_t": 0.0,
+  "delivered_t": 10496.548839154988,
+  "C_margin_t": 0.0,
+  "H_margin_MWh": 0.0,
+  "M_margin_t": 0.0,
+  "hard_service_failure_days": [],
+  "max_balance_residual": 4.346318860370957e-10,
+  "max_capacity_violation": 5.684341886080801e-13,
+  "max_daily_shortfall_t": 0.0,
+  "cost_eur": 10972105.639737228,
+  "unexecuted_h": 0,
+  "terminal_assessed": true
+}

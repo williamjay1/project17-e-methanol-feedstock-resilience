@@ -1,0 +1,8 @@
+# Exact scientific versions recorded for the executed study; see provenance.
+# Use requirements.txt for compatible installation if a provider no longer serves these wheels.
+numpy==2.5.1
+scipy==1.18.0
+pandas==3.0.5
+matplotlib==3.11.1
+openpyxl==3.1.5
+requests==2.34.2
